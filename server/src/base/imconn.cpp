@@ -12,6 +12,7 @@
 
 static CImConn* FindImConn(ConnMap_t* imconn_map, net_handle_t handle)
 {
+	log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
 	CImConn* pConn = NULL;
 	ConnMap_t::iterator iter = imconn_map->find(handle);
 	if (iter != imconn_map->end())
@@ -25,6 +26,7 @@ static CImConn* FindImConn(ConnMap_t* imconn_map, net_handle_t handle)
 
 void imconn_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pParam)
 {
+	log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
 	NOTUSED_ARG(handle);
 	NOTUSED_ARG(pParam);
 
@@ -36,7 +38,7 @@ void imconn_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pP
 	if (!pConn)
 		return;
 
-	//log("msg=%d, handle=%d ", msg, handle);
+	log("msg=%d, handle=%d ", msg, handle);
 
 	switch (msg)
 	{
@@ -63,7 +65,7 @@ void imconn_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pP
 //////////////////////////
 CImConn::CImConn()
 {
-	//log("CImConn::CImConn ");
+	log("CImConn::CImConn ");
 
 	m_busy = false;
 	m_handle = NETLIB_INVALID_HANDLE;
@@ -74,7 +76,7 @@ CImConn::CImConn()
 
 CImConn::~CImConn()
 {
-	//log("CImConn::~CImConn, handle=%d ", m_handle);
+	log("CImConn::~CImConn, handle=%d ", m_handle);
 }
 
 int CImConn::Send(void* data, int len)
@@ -122,6 +124,7 @@ int CImConn::Send(void* data, int len)
 
 void CImConn::OnRead()
 {
+	log("on Read........................");
 	for (;;)
 	{
 		uint32_t free_buf_len = m_in_buf.GetAllocSize() - m_in_buf.GetWriteOffset();

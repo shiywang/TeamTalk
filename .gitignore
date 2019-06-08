@@ -1,0 +1,8 @@
+auto_setup/
+*.apk
+.vscode/
+andorid/
+php/
+ios/
+win-client/
+server/run/

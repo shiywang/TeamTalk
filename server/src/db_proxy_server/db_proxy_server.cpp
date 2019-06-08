@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
 		log("DBManager init failed");
 		return -1;
 	}
-puts("db init success");
+	log("db init success");
 	// 主线程初始化单例，不然在工作线程可能会出现多次初始化
 	if (!CAudioModel::getInstance()) {
 		return -1;
@@ -154,6 +154,8 @@ puts("db init success");
 			return ret;
 	}
 
+	log("server start listen on: %s:%d\n", listen_ip,  listen_port);
+	log("now enter the event loop...\n");
 	printf("server start listen on: %s:%d\n", listen_ip,  listen_port);
 	printf("now enter the event loop...\n");
     writePid();

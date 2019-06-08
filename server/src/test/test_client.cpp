@@ -23,7 +23,7 @@
 using namespace std;
 
 #define MAX_LINE_LEN	1024
-string g_login_domain = "http://access.teamtalk.im:8080";
+string g_login_domain = "http://127.0.0.1:8080";
 string g_cmd_string[10];
 int g_cmd_num;
 CClient* g_pClient = NULL;

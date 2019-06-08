@@ -1,0 +1,1 @@
+/home/vagrant/TeamTalk/server/src/slog/CMakeFiles/slog.dir

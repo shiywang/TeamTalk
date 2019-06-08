@@ -43,6 +43,10 @@ build() {
     cp libslog.so ../base/slog/lib/
     cp -a lib/liblog4cxx* ../base/slog/lib/
 
+    cd ../test
+    cmake .
+	make
+
     cd ../login_server
     cmake .
 	make

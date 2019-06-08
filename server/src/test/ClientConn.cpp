@@ -34,6 +34,7 @@ net_handle_t ClientConn::connect(const string& strIp, uint16_t nPort, const stri
 
 void ClientConn::OnConfirm()
 {
+    printf("OnConfirm............");
     if(m_pCallback)
     {
         m_pCallback->onConnect();
@@ -42,12 +43,13 @@ void ClientConn::OnConfirm()
 
 void ClientConn::OnClose()
 {
-    log("onclose from handle=%d\n", m_handle);
+    printf("onclose from handle=%d\n", m_handle);
     Close();
 }
 
 void ClientConn::OnTimer(uint64_t curr_tick)
 {
+    printf("OnTimer............");
     if (curr_tick > m_last_send_tick + CLIENT_HEARTBEAT_INTERVAL) {
         CImPdu cPdu;
         IM::Other::IMHeartBeat msg;
@@ -57,10 +59,11 @@ void ClientConn::OnTimer(uint64_t curr_tick)
         uint32_t nSeqNo = m_pSeqAlloctor->getSeq(ALLOCTOR_PACKET);
         cPdu.SetSeqNum(nSeqNo);
         SendPdu(&cPdu);
+        printf("Send Heartbeat............");
     }
     
     if (curr_tick > m_last_recv_tick + CLIENT_TIMEOUT) {
-        log("conn to msg_server timeout\n");
+        printf("conn to msg_server timeout\n");
         Close();
     }
 }
@@ -68,6 +71,7 @@ void ClientConn::OnTimer(uint64_t curr_tick)
 
 uint32_t ClientConn::login(const string &strName, const string &strPass)
 {
+    printf("ClientConn:login.............");
     CImPdu cPdu;
     IM::Login::IMLoginReq msg;
     msg.set_user_name(strName);
@@ -80,6 +84,13 @@ uint32_t ClientConn::login(const string &strName, const string &strPass)
     cPdu.SetCommandId(IM::BaseDefine::CID_LOGIN_REQ_USERLOGIN);
     uint32_t nSeqNo = m_pSeqAlloctor->getSeq(ALLOCTOR_PACKET);
     cPdu.SetSeqNum(nSeqNo);
+
+
+    //Dump CImPdu
+    unsigned int i;
+    const unsigned char * const px = (unsigned char*)&cPdu;
+    for (i = 0; i < sizeof(cPdu); ++i) printf("%02X ", px[i]);
+
     SendPdu(&cPdu);
     return nSeqNo;
 }
@@ -210,10 +221,13 @@ void ClientConn::Close()
 
 void ClientConn::HandlePdu(CImPdu* pPdu)
 {
-    //printf("pdu type = %u\n", pPdu->GetPduType());
+    log("1111111111111111Heartbeat\n");
+    log("pdu type = %u\n", pPdu->GetServiceId());
+    printf("pdu type = %u\n", pPdu->GetCommandId());
 	switch (pPdu->GetCommandId()) {
         case IM::BaseDefine::CID_OTHER_HEARTBEAT:
-//		printf("Heartbeat\n");
+		printf("Heartbeat\n");
+        printf("Heartbeat\n");
 		break;
         case IM::BaseDefine::CID_LOGIN_RES_USERLOGIN:
             _HandleLoginResponse(pPdu);
@@ -403,7 +417,6 @@ void ClientConn::_HandleMsgData(CImPdu* pPdu)
     uint32_t nSeqNo = pPdu->GetSeqNum();
     if(msg.ParseFromArray(pPdu->GetBodyData(), pPdu->GetBodyLength()))
     {
-        play("message.wav");
         
         uint32_t nFromId = msg.from_user_id();
         uint32_t nToId = msg.to_session_id();

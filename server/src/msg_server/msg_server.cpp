@@ -128,7 +128,7 @@ int main(int argc, char* argv[])
 			return ret;
 	}
 
-	printf("server start listen on: %s:%d\n", listen_ip, listen_port);
+	log("server start listen on: %s:%d\n", listen_ip, listen_port);
 
 	init_msg_conn();
 
@@ -141,7 +141,7 @@ int main(int argc, char* argv[])
 	init_route_serv_conn(route_server_list, route_server_count);
 
     init_push_serv_conn(push_server_list, push_server_count);
-	printf("now enter the event loop...\n");
+	log("now enter the event loop...\n");
     
     writePid();
 

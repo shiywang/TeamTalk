@@ -1,0 +1,1 @@
+/home/vagrant/TeamTalk/server/src/base/CMakeFiles/base.dir

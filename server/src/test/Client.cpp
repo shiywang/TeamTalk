@@ -68,29 +68,40 @@ void CClient::connect()
     }
     string strPriorIp, strBackupIp;
     uint16_t nPort;
-    try {
-        uint32_t nRet = value["code"].asUInt();
-        if(nRet != 0)
-        {
-            string strMsg = value["msg"].asString();
-            printf("login falied. errorMsg:%s\n", strMsg.c_str());
-            PROMPTION;
-            return;
-        }
-        strPriorIp = value["priorIP"].asString();
-        strBackupIp = value["backupIp"].asString();
-        nPort = value["port"].asUInt();
+    // try {
+    //     uint32_t nRet = value["code"].asUInt();
+    //     if(nRet != 0)
+    //     {
+    //         string strMsg = value["msg"].asString();
+    //         printf("login falied. errorMsg:%s\n", strMsg.c_str());
+    //         PROMPTION;
+    //         return;
+    //     }
+    //     printf("1");
+
+    //     strPriorIp = value["priorIP"].asString();
         
-    } catch (std::runtime_error msg) {
-        printf("login falied. get json error:%s\n", strResp.c_str());
-        PROMPTION;
-        return;
-    }
+    //     printf("2");
+
+    //     strBackupIp = value["backupIp"].asString();
+    //     printf("3");
+
+    //     nPort = value["port"].asUInt();
+        
+    // } catch (std::runtime_error msg) {
+    //     printf("login falied. get json error:%s\n", strResp.c_str());
+    //     PROMPTION;
+    //     return;
+    // }
     
+    //hardcoded here
+    strPriorIp = "127.0.0.1";
+    nPort = 8000;
     g_pConn = new ClientConn();
     m_nHandle = g_pConn->connect(strPriorIp.c_str(), nPort, m_strName, m_strPass);
     if(m_nHandle != INVALID_SOCKET)
     {
+        printf("connect succeed");
         netlib_register_timer(CClient::TimerCallback, NULL, 1000);
     }
     else
