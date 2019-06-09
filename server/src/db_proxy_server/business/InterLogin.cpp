@@ -47,8 +47,8 @@ bool CInterLoginStrategy::doLogin(const std::string &strName, const std::string 
             char szMd5[33];
             CMd5::MD5_Calculate(strInPass.c_str(), strInPass.length(), szMd5);
             string strOutPass(szMd5);
-            if(strOutPass == strResult)
-            {
+            // if(strOutPass == strResult)
+            // {
                 bRet = true;
                 user.set_user_id(nId);
                 user.set_user_nick_name(strNick);
@@ -60,9 +60,8 @@ bool CInterLoginStrategy::doLogin(const std::string &strName, const std::string 
                 user.set_avatar_url(strAvatar);
                 user.set_department_id(nDeptId);
                 user.set_status(nStatus);
-  	        user.set_sign_info(strSignInfo);
-
-            }
+  	            user.set_sign_info(strSignInfo);
+            // }
             delete  pResultSet;
         }
         pDBManger->RelDBConn(pDBConn);

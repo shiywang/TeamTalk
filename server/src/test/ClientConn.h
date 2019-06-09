@@ -36,6 +36,7 @@ public:
     
     virtual void Close();
 public:
+    void setpCallBack(CClient *c) { m_pCallback = c; }
     uint32_t login(const string& strName, const string& strPass);
     uint32_t getUser(uint32_t nUserId, uint32_t nTime =0);
     uint32_t getUserInfo(uint32_t nUserId, list<uint32_t>& lsUserId);
@@ -48,6 +49,7 @@ public:
 	virtual void OnConfirm();
 	virtual void OnClose();
 	virtual void OnTimer(uint64_t curr_tick);
+
 
 	virtual void HandlePdu(CImPdu* pPdu);
 private:

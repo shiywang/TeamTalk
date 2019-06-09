@@ -14,12 +14,13 @@
 #include <iostream>
 #include "ostype.h"
 #include "IM.BaseDefine.pb.h"
-#include "IPacketCallback.h"
+// #include "IPacketCallback.h"
+#include <list>
 using namespace std;
 
 typedef hash_map<uint32_t, IM::BaseDefine::UserInfo*> CMapId2User_t;
 typedef hash_map<string, IM::BaseDefine::UserInfo*> CMapNick2User_t;
-class CClient:public IPacketCallback
+class CClient
 {
 public:
     CClient(const string& strName, const string& strPass, const string strDomain="127.0.0.1:8080");

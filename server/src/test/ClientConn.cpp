@@ -41,17 +41,18 @@ void ClientConn::OnConfirm()
 {
     log("OnConfirm............");
 
-	for (ConnMap_t::iterator it = g_client_conn_map.begin(); it != g_client_conn_map.end(); ) {
-		it_old = it;
-		it++;
-		pConn = (ClientConnOld*)it_old->second;
-    }
-    pConn->onConnect();
-    
-    // if(m_pCallback)
-    // {
-    //     m_pCallback->onConnect();
+	// for (ConnMap_t::iterator it = g_client_conn_map.begin(); it != g_client_conn_map.end(); ) {
+	// 	it_old = it;
+	// 	it++;
+	// 	pConn = (ClientConnOld*)it_old->second;
     // }
+    // pConn->onConnect();
+    
+    if(m_pCallback)
+    {   
+        log("m_pCallback enter.....");
+        m_pCallback->onConnect();
+    }
 }
 
 void ClientConn::OnClose()

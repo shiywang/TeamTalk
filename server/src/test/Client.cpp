@@ -103,6 +103,7 @@ void CClient::connect()
     if(m_nHandle != INVALID_SOCKET)
     {
         log("connect succeed");
+        g_pConn->setpCallBack(this);
         netlib_register_timer(CClient::TimerCallback, NULL, 1000);
     }
     else
@@ -136,11 +137,12 @@ void CClient::onLogin(uint32_t nSeqNo, uint32_t nResultCode, string& strMsg, IM:
 {
     if(nResultCode != 0)
     {
-        printf("login failed.errorCode=%u, msg=%s\n",nResultCode, strMsg.c_str());
+        log("login failed.errorCode=%u, msg=%s\n",nResultCode, strMsg.c_str());
         return;
     }
     if(pUser)
     {
+        log("login successfully.............yeah");
         m_cSelfInfo = *pUser;
         g_bLogined = true;
     }
