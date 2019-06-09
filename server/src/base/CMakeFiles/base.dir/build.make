@@ -52,124 +52,9 @@ include CMakeFiles/base.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/base.dir/flags.make
 
-CMakeFiles/base.dir/Base64.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/Base64.cpp.o: Base64.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Base64.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Base64.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Base64.cpp
-
-CMakeFiles/base.dir/Base64.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Base64.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Base64.cpp > CMakeFiles/base.dir/Base64.cpp.i
-
-CMakeFiles/base.dir/Base64.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Base64.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Base64.cpp -o CMakeFiles/base.dir/Base64.cpp.s
-
-CMakeFiles/base.dir/Base64.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/Base64.cpp.o.requires
-
-CMakeFiles/base.dir/Base64.cpp.o.provides: CMakeFiles/base.dir/Base64.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Base64.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/Base64.cpp.o.provides
-
-CMakeFiles/base.dir/Base64.cpp.o.provides.build: CMakeFiles/base.dir/Base64.cpp.o
-
-CMakeFiles/base.dir/BaseSocket.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/BaseSocket.cpp.o: BaseSocket.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/BaseSocket.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/BaseSocket.cpp.o -c /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp
-
-CMakeFiles/base.dir/BaseSocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/BaseSocket.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp > CMakeFiles/base.dir/BaseSocket.cpp.i
-
-CMakeFiles/base.dir/BaseSocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/BaseSocket.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp -o CMakeFiles/base.dir/BaseSocket.cpp.s
-
-CMakeFiles/base.dir/BaseSocket.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/BaseSocket.cpp.o.requires
-
-CMakeFiles/base.dir/BaseSocket.cpp.o.provides: CMakeFiles/base.dir/BaseSocket.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/BaseSocket.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/BaseSocket.cpp.o.provides
-
-CMakeFiles/base.dir/BaseSocket.cpp.o.provides.build: CMakeFiles/base.dir/BaseSocket.cpp.o
-
-CMakeFiles/base.dir/Condition.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/Condition.cpp.o: Condition.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Condition.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Condition.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Condition.cpp
-
-CMakeFiles/base.dir/Condition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Condition.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Condition.cpp > CMakeFiles/base.dir/Condition.cpp.i
-
-CMakeFiles/base.dir/Condition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Condition.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Condition.cpp -o CMakeFiles/base.dir/Condition.cpp.s
-
-CMakeFiles/base.dir/Condition.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/Condition.cpp.o.requires
-
-CMakeFiles/base.dir/Condition.cpp.o.provides: CMakeFiles/base.dir/Condition.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Condition.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/Condition.cpp.o.provides
-
-CMakeFiles/base.dir/Condition.cpp.o.provides.build: CMakeFiles/base.dir/Condition.cpp.o
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/ConfigFileReader.cpp.o: ConfigFileReader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ConfigFileReader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ConfigFileReader.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ConfigFileReader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp > CMakeFiles/base.dir/ConfigFileReader.cpp.i
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ConfigFileReader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp -o CMakeFiles/base.dir/ConfigFileReader.cpp.s
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides: CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides
-
-CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides.build: CMakeFiles/base.dir/ConfigFileReader.cpp.o
-
-CMakeFiles/base.dir/EncDec.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/EncDec.cpp.o: EncDec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/EncDec.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EncDec.cpp.o -c /home/vagrant/TeamTalk/server/src/base/EncDec.cpp
-
-CMakeFiles/base.dir/EncDec.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/EncDec.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/EncDec.cpp > CMakeFiles/base.dir/EncDec.cpp.i
-
-CMakeFiles/base.dir/EncDec.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/EncDec.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/EncDec.cpp -o CMakeFiles/base.dir/EncDec.cpp.s
-
-CMakeFiles/base.dir/EncDec.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/EncDec.cpp.o.requires
-
-CMakeFiles/base.dir/EncDec.cpp.o.provides: CMakeFiles/base.dir/EncDec.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/EncDec.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/EncDec.cpp.o.provides
-
-CMakeFiles/base.dir/EncDec.cpp.o.provides.build: CMakeFiles/base.dir/EncDec.cpp.o
-
 CMakeFiles/base.dir/EventDispatch.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/EventDispatch.cpp.o: EventDispatch.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/EventDispatch.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EventDispatch.cpp.o -c /home/vagrant/TeamTalk/server/src/base/EventDispatch.cpp
 
@@ -190,78 +75,9 @@ CMakeFiles/base.dir/EventDispatch.cpp.o.provides: CMakeFiles/base.dir/EventDispa
 
 CMakeFiles/base.dir/EventDispatch.cpp.o.provides.build: CMakeFiles/base.dir/EventDispatch.cpp.o
 
-CMakeFiles/base.dir/HttpClient.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/HttpClient.cpp.o: HttpClient.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/HttpClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/HttpClient.cpp.o -c /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp
-
-CMakeFiles/base.dir/HttpClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/HttpClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp > CMakeFiles/base.dir/HttpClient.cpp.i
-
-CMakeFiles/base.dir/HttpClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/HttpClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp -o CMakeFiles/base.dir/HttpClient.cpp.s
-
-CMakeFiles/base.dir/HttpClient.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/HttpClient.cpp.o.requires
-
-CMakeFiles/base.dir/HttpClient.cpp.o.provides: CMakeFiles/base.dir/HttpClient.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/HttpClient.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/HttpClient.cpp.o.provides
-
-CMakeFiles/base.dir/HttpClient.cpp.o.provides.build: CMakeFiles/base.dir/HttpClient.cpp.o
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/HttpParserWrapper.cpp.o: HttpParserWrapper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/HttpParserWrapper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/HttpParserWrapper.cpp.o -c /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/HttpParserWrapper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp > CMakeFiles/base.dir/HttpParserWrapper.cpp.i
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/HttpParserWrapper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp -o CMakeFiles/base.dir/HttpParserWrapper.cpp.s
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides: CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides
-
-CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides.build: CMakeFiles/base.dir/HttpParserWrapper.cpp.o
-
-CMakeFiles/base.dir/ImPduBase.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/ImPduBase.cpp.o: ImPduBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ImPduBase.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ImPduBase.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp
-
-CMakeFiles/base.dir/ImPduBase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ImPduBase.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp > CMakeFiles/base.dir/ImPduBase.cpp.i
-
-CMakeFiles/base.dir/ImPduBase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ImPduBase.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp -o CMakeFiles/base.dir/ImPduBase.cpp.s
-
-CMakeFiles/base.dir/ImPduBase.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/ImPduBase.cpp.o.requires
-
-CMakeFiles/base.dir/ImPduBase.cpp.o.provides: CMakeFiles/base.dir/ImPduBase.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ImPduBase.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/ImPduBase.cpp.o.provides
-
-CMakeFiles/base.dir/ImPduBase.cpp.o.provides.build: CMakeFiles/base.dir/ImPduBase.cpp.o
-
 CMakeFiles/base.dir/Lock.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/Lock.cpp.o: Lock.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Lock.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Lock.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Lock.cpp
 
@@ -282,78 +98,55 @@ CMakeFiles/base.dir/Lock.cpp.o.provides: CMakeFiles/base.dir/Lock.cpp.o.requires
 
 CMakeFiles/base.dir/Lock.cpp.o.provides.build: CMakeFiles/base.dir/Lock.cpp.o
 
-CMakeFiles/base.dir/ServInfo.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/ServInfo.cpp.o: ServInfo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ServInfo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ServInfo.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp
+CMakeFiles/base.dir/Base64.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/Base64.cpp.o: Base64.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Base64.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Base64.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Base64.cpp
 
-CMakeFiles/base.dir/ServInfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ServInfo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp > CMakeFiles/base.dir/ServInfo.cpp.i
+CMakeFiles/base.dir/Base64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Base64.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Base64.cpp > CMakeFiles/base.dir/Base64.cpp.i
 
-CMakeFiles/base.dir/ServInfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ServInfo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp -o CMakeFiles/base.dir/ServInfo.cpp.s
+CMakeFiles/base.dir/Base64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Base64.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Base64.cpp -o CMakeFiles/base.dir/Base64.cpp.s
 
-CMakeFiles/base.dir/ServInfo.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/ServInfo.cpp.o.requires
+CMakeFiles/base.dir/Base64.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/Base64.cpp.o.requires
 
-CMakeFiles/base.dir/ServInfo.cpp.o.provides: CMakeFiles/base.dir/ServInfo.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ServInfo.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/ServInfo.cpp.o.provides
+CMakeFiles/base.dir/Base64.cpp.o.provides: CMakeFiles/base.dir/Base64.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Base64.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/Base64.cpp.o.provides
 
-CMakeFiles/base.dir/ServInfo.cpp.o.provides.build: CMakeFiles/base.dir/ServInfo.cpp.o
+CMakeFiles/base.dir/Base64.cpp.o.provides.build: CMakeFiles/base.dir/Base64.cpp.o
 
-CMakeFiles/base.dir/Thread.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/Thread.cpp.o: Thread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Thread.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Thread.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Thread.cpp
+CMakeFiles/base.dir/Condition.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/Condition.cpp.o: Condition.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Condition.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Condition.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Condition.cpp
 
-CMakeFiles/base.dir/Thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Thread.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Thread.cpp > CMakeFiles/base.dir/Thread.cpp.i
+CMakeFiles/base.dir/Condition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Condition.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Condition.cpp > CMakeFiles/base.dir/Condition.cpp.i
 
-CMakeFiles/base.dir/Thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Thread.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Thread.cpp -o CMakeFiles/base.dir/Thread.cpp.s
+CMakeFiles/base.dir/Condition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Condition.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Condition.cpp -o CMakeFiles/base.dir/Condition.cpp.s
 
-CMakeFiles/base.dir/Thread.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/Thread.cpp.o.requires
+CMakeFiles/base.dir/Condition.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/Condition.cpp.o.requires
 
-CMakeFiles/base.dir/Thread.cpp.o.provides: CMakeFiles/base.dir/Thread.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Thread.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/Thread.cpp.o.provides
+CMakeFiles/base.dir/Condition.cpp.o.provides: CMakeFiles/base.dir/Condition.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Condition.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/Condition.cpp.o.provides
 
-CMakeFiles/base.dir/Thread.cpp.o.provides.build: CMakeFiles/base.dir/Thread.cpp.o
-
-CMakeFiles/base.dir/ThreadPool.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/ThreadPool.cpp.o: ThreadPool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ThreadPool.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ThreadPool.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp
-
-CMakeFiles/base.dir/ThreadPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ThreadPool.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp > CMakeFiles/base.dir/ThreadPool.cpp.i
-
-CMakeFiles/base.dir/ThreadPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ThreadPool.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp -o CMakeFiles/base.dir/ThreadPool.cpp.s
-
-CMakeFiles/base.dir/ThreadPool.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/ThreadPool.cpp.o.requires
-
-CMakeFiles/base.dir/ThreadPool.cpp.o.provides: CMakeFiles/base.dir/ThreadPool.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ThreadPool.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/ThreadPool.cpp.o.provides
-
-CMakeFiles/base.dir/ThreadPool.cpp.o.provides.build: CMakeFiles/base.dir/ThreadPool.cpp.o
+CMakeFiles/base.dir/Condition.cpp.o.provides.build: CMakeFiles/base.dir/Condition.cpp.o
 
 CMakeFiles/base.dir/TokenValidator.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/TokenValidator.cpp.o: TokenValidator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/TokenValidator.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/TokenValidator.cpp.o -c /home/vagrant/TeamTalk/server/src/base/TokenValidator.cpp
 
@@ -374,78 +167,9 @@ CMakeFiles/base.dir/TokenValidator.cpp.o.provides: CMakeFiles/base.dir/TokenVali
 
 CMakeFiles/base.dir/TokenValidator.cpp.o.provides.build: CMakeFiles/base.dir/TokenValidator.cpp.o
 
-CMakeFiles/base.dir/UtilPdu.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/UtilPdu.cpp.o: UtilPdu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/UtilPdu.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/UtilPdu.cpp.o -c /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp
-
-CMakeFiles/base.dir/UtilPdu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/UtilPdu.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp > CMakeFiles/base.dir/UtilPdu.cpp.i
-
-CMakeFiles/base.dir/UtilPdu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/UtilPdu.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp -o CMakeFiles/base.dir/UtilPdu.cpp.s
-
-CMakeFiles/base.dir/UtilPdu.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/UtilPdu.cpp.o.requires
-
-CMakeFiles/base.dir/UtilPdu.cpp.o.provides: CMakeFiles/base.dir/UtilPdu.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/UtilPdu.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/UtilPdu.cpp.o.provides
-
-CMakeFiles/base.dir/UtilPdu.cpp.o.provides.build: CMakeFiles/base.dir/UtilPdu.cpp.o
-
-CMakeFiles/base.dir/http_parser.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/http_parser.cpp.o: http_parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/http_parser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/http_parser.cpp.o -c /home/vagrant/TeamTalk/server/src/base/http_parser.cpp
-
-CMakeFiles/base.dir/http_parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/http_parser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/http_parser.cpp > CMakeFiles/base.dir/http_parser.cpp.i
-
-CMakeFiles/base.dir/http_parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/http_parser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/http_parser.cpp -o CMakeFiles/base.dir/http_parser.cpp.s
-
-CMakeFiles/base.dir/http_parser.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/http_parser.cpp.o.requires
-
-CMakeFiles/base.dir/http_parser.cpp.o.provides: CMakeFiles/base.dir/http_parser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/http_parser.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/http_parser.cpp.o.provides
-
-CMakeFiles/base.dir/http_parser.cpp.o.provides.build: CMakeFiles/base.dir/http_parser.cpp.o
-
-CMakeFiles/base.dir/im_conn_util.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/im_conn_util.cpp.o: im_conn_util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/im_conn_util.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/im_conn_util.cpp.o -c /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp
-
-CMakeFiles/base.dir/im_conn_util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/im_conn_util.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp > CMakeFiles/base.dir/im_conn_util.cpp.i
-
-CMakeFiles/base.dir/im_conn_util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/im_conn_util.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp -o CMakeFiles/base.dir/im_conn_util.cpp.s
-
-CMakeFiles/base.dir/im_conn_util.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/im_conn_util.cpp.o.requires
-
-CMakeFiles/base.dir/im_conn_util.cpp.o.provides: CMakeFiles/base.dir/im_conn_util.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/im_conn_util.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/im_conn_util.cpp.o.provides
-
-CMakeFiles/base.dir/im_conn_util.cpp.o.provides.build: CMakeFiles/base.dir/im_conn_util.cpp.o
-
 CMakeFiles/base.dir/imconn.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/imconn.cpp.o: imconn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/imconn.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/imconn.cpp.o -c /home/vagrant/TeamTalk/server/src/base/imconn.cpp
 
@@ -466,32 +190,9 @@ CMakeFiles/base.dir/imconn.cpp.o.provides: CMakeFiles/base.dir/imconn.cpp.o.requ
 
 CMakeFiles/base.dir/imconn.cpp.o.provides.build: CMakeFiles/base.dir/imconn.cpp.o
 
-CMakeFiles/base.dir/log4z.cpp.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/log4z.cpp.o: log4z.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/log4z.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/log4z.cpp.o -c /home/vagrant/TeamTalk/server/src/base/log4z.cpp
-
-CMakeFiles/base.dir/log4z.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/log4z.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/log4z.cpp > CMakeFiles/base.dir/log4z.cpp.i
-
-CMakeFiles/base.dir/log4z.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/log4z.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/log4z.cpp -o CMakeFiles/base.dir/log4z.cpp.s
-
-CMakeFiles/base.dir/log4z.cpp.o.requires:
-.PHONY : CMakeFiles/base.dir/log4z.cpp.o.requires
-
-CMakeFiles/base.dir/log4z.cpp.o.provides: CMakeFiles/base.dir/log4z.cpp.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/log4z.cpp.o.provides.build
-.PHONY : CMakeFiles/base.dir/log4z.cpp.o.provides
-
-CMakeFiles/base.dir/log4z.cpp.o.provides.build: CMakeFiles/base.dir/log4z.cpp.o
-
 CMakeFiles/base.dir/netlib.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/netlib.cpp.o: netlib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/netlib.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/netlib.cpp.o -c /home/vagrant/TeamTalk/server/src/base/netlib.cpp
 
@@ -512,9 +213,55 @@ CMakeFiles/base.dir/netlib.cpp.o.provides: CMakeFiles/base.dir/netlib.cpp.o.requ
 
 CMakeFiles/base.dir/netlib.cpp.o.provides.build: CMakeFiles/base.dir/netlib.cpp.o
 
+CMakeFiles/base.dir/UtilPdu.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/UtilPdu.cpp.o: UtilPdu.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/UtilPdu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/UtilPdu.cpp.o -c /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp
+
+CMakeFiles/base.dir/UtilPdu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/UtilPdu.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp > CMakeFiles/base.dir/UtilPdu.cpp.i
+
+CMakeFiles/base.dir/UtilPdu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/UtilPdu.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/UtilPdu.cpp -o CMakeFiles/base.dir/UtilPdu.cpp.s
+
+CMakeFiles/base.dir/UtilPdu.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/UtilPdu.cpp.o.requires
+
+CMakeFiles/base.dir/UtilPdu.cpp.o.provides: CMakeFiles/base.dir/UtilPdu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/UtilPdu.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/UtilPdu.cpp.o.provides
+
+CMakeFiles/base.dir/UtilPdu.cpp.o.provides.build: CMakeFiles/base.dir/UtilPdu.cpp.o
+
+CMakeFiles/base.dir/HttpClient.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/HttpClient.cpp.o: HttpClient.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/HttpClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/HttpClient.cpp.o -c /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp
+
+CMakeFiles/base.dir/HttpClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/HttpClient.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp > CMakeFiles/base.dir/HttpClient.cpp.i
+
+CMakeFiles/base.dir/HttpClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/HttpClient.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/HttpClient.cpp -o CMakeFiles/base.dir/HttpClient.cpp.s
+
+CMakeFiles/base.dir/HttpClient.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/HttpClient.cpp.o.requires
+
+CMakeFiles/base.dir/HttpClient.cpp.o.provides: CMakeFiles/base.dir/HttpClient.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/HttpClient.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/HttpClient.cpp.o.provides
+
+CMakeFiles/base.dir/HttpClient.cpp.o.provides.build: CMakeFiles/base.dir/HttpClient.cpp.o
+
 CMakeFiles/base.dir/util.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/util.cpp.o: util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/util.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/util.cpp.o -c /home/vagrant/TeamTalk/server/src/base/util.cpp
 
@@ -535,101 +282,262 @@ CMakeFiles/base.dir/util.cpp.o.provides: CMakeFiles/base.dir/util.cpp.o.requires
 
 CMakeFiles/base.dir/util.cpp.o.provides.build: CMakeFiles/base.dir/util.cpp.o
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o: pb/protocol/IM.BaseDefine.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
+CMakeFiles/base.dir/log4z.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/log4z.cpp.o: log4z.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/log4z.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/log4z.cpp.o -c /home/vagrant/TeamTalk/server/src/base/log4z.cpp
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i
+CMakeFiles/base.dir/log4z.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/log4z.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/log4z.cpp > CMakeFiles/base.dir/log4z.cpp.i
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s
+CMakeFiles/base.dir/log4z.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/log4z.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/log4z.cpp -o CMakeFiles/base.dir/log4z.cpp.s
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires:
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+CMakeFiles/base.dir/log4z.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/log4z.cpp.o.requires
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides
+CMakeFiles/base.dir/log4z.cpp.o.provides: CMakeFiles/base.dir/log4z.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/log4z.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/log4z.cpp.o.provides
 
-CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o
+CMakeFiles/base.dir/log4z.cpp.o.provides.build: CMakeFiles/base.dir/log4z.cpp.o
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o: pb/protocol/IM.Buddy.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
+CMakeFiles/base.dir/BaseSocket.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/BaseSocket.cpp.o: BaseSocket.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/BaseSocket.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/BaseSocket.cpp.o -c /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i
+CMakeFiles/base.dir/BaseSocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/BaseSocket.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp > CMakeFiles/base.dir/BaseSocket.cpp.i
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s
+CMakeFiles/base.dir/BaseSocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/BaseSocket.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/BaseSocket.cpp -o CMakeFiles/base.dir/BaseSocket.cpp.s
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires:
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
+CMakeFiles/base.dir/BaseSocket.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/BaseSocket.cpp.o.requires
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides.build
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides
+CMakeFiles/base.dir/BaseSocket.cpp.o.provides: CMakeFiles/base.dir/BaseSocket.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/BaseSocket.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/BaseSocket.cpp.o.provides
 
-CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o
+CMakeFiles/base.dir/BaseSocket.cpp.o.provides.build: CMakeFiles/base.dir/BaseSocket.cpp.o
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o: pb/protocol/IM.File.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
+CMakeFiles/base.dir/ServInfo.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/ServInfo.cpp.o: ServInfo.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ServInfo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ServInfo.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i
+CMakeFiles/base.dir/ServInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ServInfo.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp > CMakeFiles/base.dir/ServInfo.cpp.i
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s
+CMakeFiles/base.dir/ServInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ServInfo.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ServInfo.cpp -o CMakeFiles/base.dir/ServInfo.cpp.s
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires:
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
+CMakeFiles/base.dir/ServInfo.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/ServInfo.cpp.o.requires
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides.build
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides
+CMakeFiles/base.dir/ServInfo.cpp.o.provides: CMakeFiles/base.dir/ServInfo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ServInfo.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/ServInfo.cpp.o.provides
 
-CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o
+CMakeFiles/base.dir/ServInfo.cpp.o.provides.build: CMakeFiles/base.dir/ServInfo.cpp.o
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o: pb/protocol/IM.Group.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
+CMakeFiles/base.dir/ConfigFileReader.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/ConfigFileReader.cpp.o: ConfigFileReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ConfigFileReader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ConfigFileReader.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i
+CMakeFiles/base.dir/ConfigFileReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ConfigFileReader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp > CMakeFiles/base.dir/ConfigFileReader.cpp.i
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s
+CMakeFiles/base.dir/ConfigFileReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ConfigFileReader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ConfigFileReader.cpp -o CMakeFiles/base.dir/ConfigFileReader.cpp.s
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires:
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides.build
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides
+CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides: CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides
 
-CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o
+CMakeFiles/base.dir/ConfigFileReader.cpp.o.provides.build: CMakeFiles/base.dir/ConfigFileReader.cpp.o
+
+CMakeFiles/base.dir/ImPduBase.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/ImPduBase.cpp.o: ImPduBase.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ImPduBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ImPduBase.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp
+
+CMakeFiles/base.dir/ImPduBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ImPduBase.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp > CMakeFiles/base.dir/ImPduBase.cpp.i
+
+CMakeFiles/base.dir/ImPduBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ImPduBase.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ImPduBase.cpp -o CMakeFiles/base.dir/ImPduBase.cpp.s
+
+CMakeFiles/base.dir/ImPduBase.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/ImPduBase.cpp.o.requires
+
+CMakeFiles/base.dir/ImPduBase.cpp.o.provides: CMakeFiles/base.dir/ImPduBase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ImPduBase.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/ImPduBase.cpp.o.provides
+
+CMakeFiles/base.dir/ImPduBase.cpp.o.provides.build: CMakeFiles/base.dir/ImPduBase.cpp.o
+
+CMakeFiles/base.dir/EncDec.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/EncDec.cpp.o: EncDec.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/EncDec.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/EncDec.cpp.o -c /home/vagrant/TeamTalk/server/src/base/EncDec.cpp
+
+CMakeFiles/base.dir/EncDec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/EncDec.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/EncDec.cpp > CMakeFiles/base.dir/EncDec.cpp.i
+
+CMakeFiles/base.dir/EncDec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/EncDec.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/EncDec.cpp -o CMakeFiles/base.dir/EncDec.cpp.s
+
+CMakeFiles/base.dir/EncDec.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/EncDec.cpp.o.requires
+
+CMakeFiles/base.dir/EncDec.cpp.o.provides: CMakeFiles/base.dir/EncDec.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/EncDec.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/EncDec.cpp.o.provides
+
+CMakeFiles/base.dir/EncDec.cpp.o.provides.build: CMakeFiles/base.dir/EncDec.cpp.o
+
+CMakeFiles/base.dir/Thread.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/Thread.cpp.o: Thread.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/Thread.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/Thread.cpp.o -c /home/vagrant/TeamTalk/server/src/base/Thread.cpp
+
+CMakeFiles/base.dir/Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/Thread.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/Thread.cpp > CMakeFiles/base.dir/Thread.cpp.i
+
+CMakeFiles/base.dir/Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/Thread.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/Thread.cpp -o CMakeFiles/base.dir/Thread.cpp.s
+
+CMakeFiles/base.dir/Thread.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/Thread.cpp.o.requires
+
+CMakeFiles/base.dir/Thread.cpp.o.provides: CMakeFiles/base.dir/Thread.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/Thread.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/Thread.cpp.o.provides
+
+CMakeFiles/base.dir/Thread.cpp.o.provides.build: CMakeFiles/base.dir/Thread.cpp.o
+
+CMakeFiles/base.dir/http_parser.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/http_parser.cpp.o: http_parser.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/http_parser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/http_parser.cpp.o -c /home/vagrant/TeamTalk/server/src/base/http_parser.cpp
+
+CMakeFiles/base.dir/http_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/http_parser.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/http_parser.cpp > CMakeFiles/base.dir/http_parser.cpp.i
+
+CMakeFiles/base.dir/http_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/http_parser.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/http_parser.cpp -o CMakeFiles/base.dir/http_parser.cpp.s
+
+CMakeFiles/base.dir/http_parser.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/http_parser.cpp.o.requires
+
+CMakeFiles/base.dir/http_parser.cpp.o.provides: CMakeFiles/base.dir/http_parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/http_parser.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/http_parser.cpp.o.provides
+
+CMakeFiles/base.dir/http_parser.cpp.o.provides.build: CMakeFiles/base.dir/http_parser.cpp.o
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/HttpParserWrapper.cpp.o: HttpParserWrapper.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/HttpParserWrapper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/HttpParserWrapper.cpp.o -c /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/HttpParserWrapper.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp > CMakeFiles/base.dir/HttpParserWrapper.cpp.i
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/HttpParserWrapper.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/HttpParserWrapper.cpp -o CMakeFiles/base.dir/HttpParserWrapper.cpp.s
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides: CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides
+
+CMakeFiles/base.dir/HttpParserWrapper.cpp.o.provides.build: CMakeFiles/base.dir/HttpParserWrapper.cpp.o
+
+CMakeFiles/base.dir/ThreadPool.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/ThreadPool.cpp.o: ThreadPool.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/ThreadPool.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/ThreadPool.cpp.o -c /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp
+
+CMakeFiles/base.dir/ThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/ThreadPool.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp > CMakeFiles/base.dir/ThreadPool.cpp.i
+
+CMakeFiles/base.dir/ThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/ThreadPool.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/ThreadPool.cpp -o CMakeFiles/base.dir/ThreadPool.cpp.s
+
+CMakeFiles/base.dir/ThreadPool.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/ThreadPool.cpp.o.requires
+
+CMakeFiles/base.dir/ThreadPool.cpp.o.provides: CMakeFiles/base.dir/ThreadPool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/ThreadPool.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/ThreadPool.cpp.o.provides
+
+CMakeFiles/base.dir/ThreadPool.cpp.o.provides.build: CMakeFiles/base.dir/ThreadPool.cpp.o
+
+CMakeFiles/base.dir/im_conn_util.cpp.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/im_conn_util.cpp.o: im_conn_util.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/im_conn_util.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/im_conn_util.cpp.o -c /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp
+
+CMakeFiles/base.dir/im_conn_util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/im_conn_util.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp > CMakeFiles/base.dir/im_conn_util.cpp.i
+
+CMakeFiles/base.dir/im_conn_util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/im_conn_util.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/im_conn_util.cpp -o CMakeFiles/base.dir/im_conn_util.cpp.s
+
+CMakeFiles/base.dir/im_conn_util.cpp.o.requires:
+.PHONY : CMakeFiles/base.dir/im_conn_util.cpp.o.requires
+
+CMakeFiles/base.dir/im_conn_util.cpp.o.provides: CMakeFiles/base.dir/im_conn_util.cpp.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/im_conn_util.cpp.o.provides.build
+.PHONY : CMakeFiles/base.dir/im_conn_util.cpp.o.provides
+
+CMakeFiles/base.dir/im_conn_util.cpp.o.provides.build: CMakeFiles/base.dir/im_conn_util.cpp.o
 
 CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o: pb/protocol/IM.Login.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc
 
@@ -652,7 +560,7 @@ CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o.provides.build: CMakeFiles/base
 
 CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o: pb/protocol/IM.Message.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc
 
@@ -673,32 +581,9 @@ CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o.provides: CMakeFiles/base.dir
 
 CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o
 
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o: CMakeFiles/base.dir/flags.make
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o: pb/protocol/IM.Other.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_28)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
-
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i
-
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s
-
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires:
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
-
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides.build
-.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides
-
-CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o
-
 CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o: pb/protocol/IM.Server.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc
 
@@ -719,9 +604,101 @@ CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o.provides: CMakeFiles/base.dir/
 
 CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o
 
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o: pb/protocol/IM.Other.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
+
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.i
+
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.s
+
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires:
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
+
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides.build
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides
+
+CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o: pb/protocol/IM.Group.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.i
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.s
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires:
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides.build
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides
+
+CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o: pb/protocol/IM.Buddy.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.i
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.s
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires:
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides.build
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides
+
+CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o: pb/protocol/IM.File.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_28)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.i
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.s
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires:
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides.build
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides
+
+CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o
+
 CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o: pb/protocol/IM.SwitchService.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc
 
@@ -741,6 +718,29 @@ CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o.provides: CMakeFiles/ba
 .PHONY : CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o.provides
 
 CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o: CMakeFiles/base.dir/flags.make
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o: pb/protocol/IM.BaseDefine.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/base/CMakeFiles $(CMAKE_PROGRESS_30)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc > CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.i
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc -o CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.s
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires:
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build
+.PHONY : CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides
+
+CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o
 
 CMakeFiles/base.dir/jsoncpp/json_reader.cpp.o: CMakeFiles/base.dir/flags.make
 CMakeFiles/base.dir/jsoncpp/json_reader.cpp.o: jsoncpp/json_reader.cpp
@@ -813,36 +813,36 @@ CMakeFiles/base.dir/jsoncpp/json_writer.cpp.o.provides.build: CMakeFiles/base.di
 
 # Object files for target base
 base_OBJECTS = \
-"CMakeFiles/base.dir/Base64.cpp.o" \
-"CMakeFiles/base.dir/BaseSocket.cpp.o" \
-"CMakeFiles/base.dir/Condition.cpp.o" \
-"CMakeFiles/base.dir/ConfigFileReader.cpp.o" \
-"CMakeFiles/base.dir/EncDec.cpp.o" \
 "CMakeFiles/base.dir/EventDispatch.cpp.o" \
-"CMakeFiles/base.dir/HttpClient.cpp.o" \
-"CMakeFiles/base.dir/HttpParserWrapper.cpp.o" \
-"CMakeFiles/base.dir/ImPduBase.cpp.o" \
 "CMakeFiles/base.dir/Lock.cpp.o" \
-"CMakeFiles/base.dir/ServInfo.cpp.o" \
-"CMakeFiles/base.dir/Thread.cpp.o" \
-"CMakeFiles/base.dir/ThreadPool.cpp.o" \
+"CMakeFiles/base.dir/Base64.cpp.o" \
+"CMakeFiles/base.dir/Condition.cpp.o" \
 "CMakeFiles/base.dir/TokenValidator.cpp.o" \
-"CMakeFiles/base.dir/UtilPdu.cpp.o" \
-"CMakeFiles/base.dir/http_parser.cpp.o" \
-"CMakeFiles/base.dir/im_conn_util.cpp.o" \
 "CMakeFiles/base.dir/imconn.cpp.o" \
-"CMakeFiles/base.dir/log4z.cpp.o" \
 "CMakeFiles/base.dir/netlib.cpp.o" \
+"CMakeFiles/base.dir/UtilPdu.cpp.o" \
+"CMakeFiles/base.dir/HttpClient.cpp.o" \
 "CMakeFiles/base.dir/util.cpp.o" \
-"CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o" \
-"CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o" \
-"CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o" \
-"CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o" \
+"CMakeFiles/base.dir/log4z.cpp.o" \
+"CMakeFiles/base.dir/BaseSocket.cpp.o" \
+"CMakeFiles/base.dir/ServInfo.cpp.o" \
+"CMakeFiles/base.dir/ConfigFileReader.cpp.o" \
+"CMakeFiles/base.dir/ImPduBase.cpp.o" \
+"CMakeFiles/base.dir/EncDec.cpp.o" \
+"CMakeFiles/base.dir/Thread.cpp.o" \
+"CMakeFiles/base.dir/http_parser.cpp.o" \
+"CMakeFiles/base.dir/HttpParserWrapper.cpp.o" \
+"CMakeFiles/base.dir/ThreadPool.cpp.o" \
+"CMakeFiles/base.dir/im_conn_util.cpp.o" \
 "CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o" \
 "CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o" \
-"CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o" \
 "CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o" \
+"CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o" \
+"CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o" \
+"CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o" \
+"CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o" \
 "CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o" \
+"CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o" \
 "CMakeFiles/base.dir/jsoncpp/json_reader.cpp.o" \
 "CMakeFiles/base.dir/jsoncpp/json_value.cpp.o" \
 "CMakeFiles/base.dir/jsoncpp/json_writer.cpp.o"
@@ -850,36 +850,36 @@ base_OBJECTS = \
 # External object files for target base
 base_EXTERNAL_OBJECTS =
 
-libbase.a: CMakeFiles/base.dir/Base64.cpp.o
-libbase.a: CMakeFiles/base.dir/BaseSocket.cpp.o
-libbase.a: CMakeFiles/base.dir/Condition.cpp.o
-libbase.a: CMakeFiles/base.dir/ConfigFileReader.cpp.o
-libbase.a: CMakeFiles/base.dir/EncDec.cpp.o
 libbase.a: CMakeFiles/base.dir/EventDispatch.cpp.o
-libbase.a: CMakeFiles/base.dir/HttpClient.cpp.o
-libbase.a: CMakeFiles/base.dir/HttpParserWrapper.cpp.o
-libbase.a: CMakeFiles/base.dir/ImPduBase.cpp.o
 libbase.a: CMakeFiles/base.dir/Lock.cpp.o
-libbase.a: CMakeFiles/base.dir/ServInfo.cpp.o
-libbase.a: CMakeFiles/base.dir/Thread.cpp.o
-libbase.a: CMakeFiles/base.dir/ThreadPool.cpp.o
+libbase.a: CMakeFiles/base.dir/Base64.cpp.o
+libbase.a: CMakeFiles/base.dir/Condition.cpp.o
 libbase.a: CMakeFiles/base.dir/TokenValidator.cpp.o
-libbase.a: CMakeFiles/base.dir/UtilPdu.cpp.o
-libbase.a: CMakeFiles/base.dir/http_parser.cpp.o
-libbase.a: CMakeFiles/base.dir/im_conn_util.cpp.o
 libbase.a: CMakeFiles/base.dir/imconn.cpp.o
-libbase.a: CMakeFiles/base.dir/log4z.cpp.o
 libbase.a: CMakeFiles/base.dir/netlib.cpp.o
+libbase.a: CMakeFiles/base.dir/UtilPdu.cpp.o
+libbase.a: CMakeFiles/base.dir/HttpClient.cpp.o
 libbase.a: CMakeFiles/base.dir/util.cpp.o
-libbase.a: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o
-libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o
-libbase.a: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o
-libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o
+libbase.a: CMakeFiles/base.dir/log4z.cpp.o
+libbase.a: CMakeFiles/base.dir/BaseSocket.cpp.o
+libbase.a: CMakeFiles/base.dir/ServInfo.cpp.o
+libbase.a: CMakeFiles/base.dir/ConfigFileReader.cpp.o
+libbase.a: CMakeFiles/base.dir/ImPduBase.cpp.o
+libbase.a: CMakeFiles/base.dir/EncDec.cpp.o
+libbase.a: CMakeFiles/base.dir/Thread.cpp.o
+libbase.a: CMakeFiles/base.dir/http_parser.cpp.o
+libbase.a: CMakeFiles/base.dir/HttpParserWrapper.cpp.o
+libbase.a: CMakeFiles/base.dir/ThreadPool.cpp.o
+libbase.a: CMakeFiles/base.dir/im_conn_util.cpp.o
 libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o
 libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o
-libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o
 libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o
+libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o
+libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o
+libbase.a: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o
+libbase.a: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o
 libbase.a: CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o
+libbase.a: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o
 libbase.a: CMakeFiles/base.dir/jsoncpp/json_reader.cpp.o
 libbase.a: CMakeFiles/base.dir/jsoncpp/json_value.cpp.o
 libbase.a: CMakeFiles/base.dir/jsoncpp/json_writer.cpp.o
@@ -893,36 +893,36 @@ libbase.a: CMakeFiles/base.dir/link.txt
 CMakeFiles/base.dir/build: libbase.a
 .PHONY : CMakeFiles/base.dir/build
 
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Base64.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/BaseSocket.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Condition.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/EncDec.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/EventDispatch.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/HttpClient.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ImPduBase.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Lock.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ServInfo.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Thread.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ThreadPool.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Base64.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Condition.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/TokenValidator.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/UtilPdu.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/http_parser.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/im_conn_util.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/imconn.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/log4z.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/netlib.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/UtilPdu.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/HttpClient.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/util.cpp.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/log4z.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/BaseSocket.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ServInfo.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ConfigFileReader.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ImPduBase.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/EncDec.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/Thread.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/http_parser.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/HttpParserWrapper.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/ThreadPool.cpp.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/im_conn_util.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Login.pb.cc.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Message.pb.cc.o.requires
-CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Server.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Other.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.Buddy.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.File.pb.cc.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.SwitchService.pb.cc.o.requires
+CMakeFiles/base.dir/requires: CMakeFiles/base.dir/pb/protocol/IM.BaseDefine.pb.cc.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/jsoncpp/json_reader.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/jsoncpp/json_value.cpp.o.requires
 CMakeFiles/base.dir/requires: CMakeFiles/base.dir/jsoncpp/json_writer.cpp.o.requires

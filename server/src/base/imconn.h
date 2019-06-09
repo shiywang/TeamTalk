@@ -26,7 +26,10 @@ public:
 	virtual ~CImConn();
 
 	bool IsBusy() { return m_busy; }
-	int SendPdu(CImPdu* pPdu) { return Send(pPdu->GetBuffer(), pPdu->GetLength()); }
+	int SendPdu(CImPdu* pPdu) {
+		log("DB: pPdu %u %u", pPdu->GetLength(), pPdu->GetBodyLength());
+		log("DB: SendPdu(): %u, %u", pPdu->GetServiceId(), pPdu->GetCommandId());
+		return Send(pPdu->GetBuffer(), pPdu->GetLength()); }
 	int Send(void* data, int len);
 
 	virtual void OnConnect(net_handle_t handle) { m_handle = handle; }

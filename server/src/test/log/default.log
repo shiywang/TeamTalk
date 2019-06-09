@@ -58,3 +58,36 @@
 2019-06-07 22:18:10,237 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
 2019-06-07 22:30:21,555 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
 2019-06-07 23:21:16,939 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-08 17:17:43,731 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-08 17:18:14,836 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-08 17:18:51,969 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-08 21:59:31,217 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 01:39:07,273 [INFO  IM] - <imconn.cpp>|<67>|<CImConn>,CImConn::CImConn 
+2019-06-09 01:39:07,273 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 12:51:39,528 [INFO  IM] - <imconn.cpp>|<69>|<CImConn>,CImConn::CImConn 
+2019-06-09 12:51:39,529 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,DB: CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 12:51:39,529 [INFO  IM] - <netlib.cpp>|<68>|<netlib_connect>,DB: netlib_connect  handle  6
+2019-06-09 12:51:39,530 [INFO  IM] - <imconn.cpp>|<28>|<imconn_callback>,DB: imconn_callback entering
+2019-06-09 12:51:39,531 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 12:51:54,938 [INFO  IM] - <imconn.cpp>|<28>|<imconn_callback>,DB: imconn_callback entering
+2019-06-09 12:51:54,940 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 12:51:54,941 [INFO  IM] - <imconn.cpp>|<28>|<imconn_callback>,DB: imconn_callback entering
+2019-06-09 12:51:54,941 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:13:44,851 [INFO  IM] - <imconn.cpp>|<69>|<CImConn>,CImConn::CImConn 
+2019-06-09 17:13:44,852 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,DB: CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 17:13:44,853 [INFO  IM] - <netlib.cpp>|<68>|<netlib_connect>,DB: netlib_connect  handle  6
+2019-06-09 17:13:44,854 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:14:00,507 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:14:00,507 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:27:32,556 [INFO  IM] - <imconn.cpp>|<69>|<CImConn>,CImConn::CImConn 
+2019-06-09 17:27:32,556 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,DB: CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 17:27:32,557 [INFO  IM] - <netlib.cpp>|<68>|<netlib_connect>,DB: netlib_connect  handle  6
+2019-06-09 17:27:32,558 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:27:41,329 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:27:41,329 [INFO  IM] - <imconn.cpp>|<32>|<imconn_callback>,DB: callback_data is null
+2019-06-09 17:41:21,360 [INFO  IM] - <imconn.cpp>|<69>|<CImConn>,CImConn::CImConn 
+2019-06-09 17:41:21,361 [INFO  IM] - <BaseSocket.cpp>|<90>|<Connect>,DB: CBaseSocket::Connect, server_ip=127.0.0.1, port=8000
+2019-06-09 17:41:21,361 [INFO  IM] - <netlib.cpp>|<68>|<netlib_connect>,DB: netlib_connect  handle  6
+2019-06-09 17:41:21,361 [INFO  IM] - <Client.cpp>|<105>|<connect>,connect succeed
+2019-06-09 17:41:37,296 [INFO  IM] - <imconn.cpp>|<80>|<~CImConn>,CImConn::~CImConn, handle=6 
+2019-06-09 17:41:37,298 [INFO  IM] - <imconn.cpp>|<39>|<imconn_callback>,DB: imconn_callback find pConn is null, msg=4, handle=6 

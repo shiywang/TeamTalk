@@ -39,6 +39,7 @@ extern CAes *pAes;
 
 static void db_server_conn_timer_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pParam)
 {
+    // log("DB: db_server_conn_timer_callback");
 	ConnMap_t::iterator it_old;
 	CDBServConn* pConn = NULL;
 	uint64_t cur_time = get_tick_count();
@@ -46,9 +47,10 @@ static void db_server_conn_timer_callback(void* callback_data, uint8_t msg, uint
 	for (ConnMap_t::iterator it = g_db_server_conn_map.begin(); it != g_db_server_conn_map.end(); ) {
 		it_old = it;
 		it++;
-
 		pConn = (CDBServConn*)it_old->second;
+        // log("DB: db_server_conn_timer_callback in loop, is open: %d", pConn->IsOpen());
 		if (pConn->IsOpen()) {
+            // log("DB: db_server_conn_timer_callback isOpen");
 			pConn->OnTimer(cur_time);
 		}
 	}
@@ -65,7 +67,7 @@ void init_db_serv_conn(serv_info_t* server_list, uint32_t server_count, uint32_t
 
 	uint32_t total_db_instance = server_count / concur_conn_cnt;
 	g_db_server_login_count = (total_db_instance / 2) * concur_conn_cnt;
-	log("DB server connection index for login business: [0, %u), for other business: [%u, %u) ",
+	log("DB: DB server connection index for login business: [0, %u), for other business: [%u, %u) ",
 			g_db_server_login_count, g_db_server_login_count, g_db_server_count);
 
 	serv_init<CDBServConn>(g_db_server_list, g_db_server_count);
@@ -141,18 +143,22 @@ CDBServConn::~CDBServConn()
 
 void CDBServConn::Connect(const char* server_ip, uint16_t server_port, uint32_t serv_idx)
 {
-	log("Connecting to DB Storage Server %s:%d ", server_ip, server_port);
+	log("DB: Connecting to DB Storage Server %s:%d ", server_ip, server_port);
 
 	m_serv_idx = serv_idx;
 	m_handle = netlib_connect(server_ip, server_port, imconn_callback, (void*)&g_db_server_conn_map);
 
+    log("DB: g_db_server_conn_map handle is not -1: %d ", m_handle);
+
 	if (m_handle != NETLIB_INVALID_HANDLE) {
+        log("DB: Connecting and insert g_db_server_conn_map handle: %d ", m_handle);
 		g_db_server_conn_map.insert(make_pair(m_handle, this));
 	}
 }
 
 void CDBServConn::Close()
 {
+    log("DB: CDBServConn::Close");
 	// reset server information for the next connect
 	serv_reset<CDBServConn>(g_db_server_list, g_db_server_count, m_serv_idx);
 
@@ -166,36 +172,43 @@ void CDBServConn::Close()
 
 void CDBServConn::OnConfirm()
 {
-	log("connect to db server success");
+	log("DB: connect to db server success");
 	m_bOpen = true;
 	g_db_server_list[m_serv_idx].reconnect_cnt = MIN_RECONNECT_CNT / 2;
 }
 
 void CDBServConn::OnClose()
 {
-	log("onclose from db server handle=%d", m_handle);
+	log("DB: onclose from db server handle=%d", m_handle);
 	Close();
 }
 
 void CDBServConn::OnTimer(uint64_t curr_tick)
 {
+    // log("DB: CDBServConn::OnTimer: curr_tick: %d, m_last_send_tick %d", curr_tick, m_last_send_tick);
 	if (curr_tick > m_last_send_tick + SERVER_HEARTBEAT_INTERVAL) {
+        // log("DB: CDBServConn::OnTimer: went into send HeartBeat");
         IM::Other::IMHeartBeat msg;
         CImPdu pdu;
         pdu.SetPBMsg(&msg);
         pdu.SetServiceId(SID_OTHER);
         pdu.SetCommandId(CID_OTHER_HEARTBEAT);
 		SendPdu(&pdu);
+        // log("DB: CDBServConn::OnTimer: send heartbeat to db server");
 	}
 
 	if (curr_tick > m_last_recv_tick + SERVER_TIMEOUT) {
-		log("conn to db server timeout");
+		log("DB: FFFFFFFFFFFFFF conn to db server timeout");
 		Close();
 	}
 }
 
 void CDBServConn::HandlePdu(CImPdu* pPdu)
 {
+    if (pPdu->GetCommandId() != CID_OTHER_HEARTBEAT) {
+        log("DB: CDBServConn::HandlePdu cmd id=%d ", pPdu->GetCommandId());
+    }
+    
 	switch (pPdu->GetCommandId()) {
         case CID_OTHER_HEARTBEAT:
             break;
@@ -278,7 +291,7 @@ void CDBServConn::HandlePdu(CImPdu* pPdu)
             break;
         
         default:
-            log("db server, wrong cmd id=%d ", pPdu->GetCommandId());
+            log("DB: db server, wrong cmd id=%d ", pPdu->GetCommandId());
 	}
 }
 

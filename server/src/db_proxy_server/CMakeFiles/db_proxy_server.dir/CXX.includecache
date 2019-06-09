@@ -834,10 +834,6 @@ ImPduBase.h
 IM.BaseDefine.pb.h
 /home/vagrant/TeamTalk/server/src/db_proxy_server/business/IM.BaseDefine.pb.h
 
-/home/vagrant/TeamTalk/server/src/db_proxy_server/business/ExterLogin.cpp
-ExterLogin.h
-/home/vagrant/TeamTalk/server/src/db_proxy_server/business/ExterLogin.h
-
 /home/vagrant/TeamTalk/server/src/db_proxy_server/business/ExterLogin.h
 LoginStrategy.h
 /home/vagrant/TeamTalk/server/src/db_proxy_server/business/LoginStrategy.h

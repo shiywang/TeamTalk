@@ -98,32 +98,9 @@ CMakeFiles/login_server.dir/LoginConn.cpp.o.provides: CMakeFiles/login_server.di
 
 CMakeFiles/login_server.dir/LoginConn.cpp.o.provides.build: CMakeFiles/login_server.dir/LoginConn.cpp.o
 
-CMakeFiles/login_server.dir/ipparser.cpp.o: CMakeFiles/login_server.dir/flags.make
-CMakeFiles/login_server.dir/ipparser.cpp.o: ipparser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/login_server/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/login_server.dir/ipparser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/login_server.dir/ipparser.cpp.o -c /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp
-
-CMakeFiles/login_server.dir/ipparser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/ipparser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp > CMakeFiles/login_server.dir/ipparser.cpp.i
-
-CMakeFiles/login_server.dir/ipparser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/ipparser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp -o CMakeFiles/login_server.dir/ipparser.cpp.s
-
-CMakeFiles/login_server.dir/ipparser.cpp.o.requires:
-.PHONY : CMakeFiles/login_server.dir/ipparser.cpp.o.requires
-
-CMakeFiles/login_server.dir/ipparser.cpp.o.provides: CMakeFiles/login_server.dir/ipparser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/login_server.dir/build.make CMakeFiles/login_server.dir/ipparser.cpp.o.provides.build
-.PHONY : CMakeFiles/login_server.dir/ipparser.cpp.o.provides
-
-CMakeFiles/login_server.dir/ipparser.cpp.o.provides.build: CMakeFiles/login_server.dir/ipparser.cpp.o
-
 CMakeFiles/login_server.dir/login_server.cpp.o: CMakeFiles/login_server.dir/flags.make
 CMakeFiles/login_server.dir/login_server.cpp.o: login_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/login_server/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/login_server/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/login_server.dir/login_server.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/login_server.dir/login_server.cpp.o -c /home/vagrant/TeamTalk/server/src/login_server/login_server.cpp
 
@@ -144,20 +121,43 @@ CMakeFiles/login_server.dir/login_server.cpp.o.provides: CMakeFiles/login_server
 
 CMakeFiles/login_server.dir/login_server.cpp.o.provides.build: CMakeFiles/login_server.dir/login_server.cpp.o
 
+CMakeFiles/login_server.dir/ipparser.cpp.o: CMakeFiles/login_server.dir/flags.make
+CMakeFiles/login_server.dir/ipparser.cpp.o: ipparser.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/login_server/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/login_server.dir/ipparser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/login_server.dir/ipparser.cpp.o -c /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp
+
+CMakeFiles/login_server.dir/ipparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/login_server.dir/ipparser.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp > CMakeFiles/login_server.dir/ipparser.cpp.i
+
+CMakeFiles/login_server.dir/ipparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/login_server.dir/ipparser.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/login_server/ipparser.cpp -o CMakeFiles/login_server.dir/ipparser.cpp.s
+
+CMakeFiles/login_server.dir/ipparser.cpp.o.requires:
+.PHONY : CMakeFiles/login_server.dir/ipparser.cpp.o.requires
+
+CMakeFiles/login_server.dir/ipparser.cpp.o.provides: CMakeFiles/login_server.dir/ipparser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/login_server.dir/build.make CMakeFiles/login_server.dir/ipparser.cpp.o.provides.build
+.PHONY : CMakeFiles/login_server.dir/ipparser.cpp.o.provides
+
+CMakeFiles/login_server.dir/ipparser.cpp.o.provides.build: CMakeFiles/login_server.dir/ipparser.cpp.o
+
 # Object files for target login_server
 login_server_OBJECTS = \
 "CMakeFiles/login_server.dir/HttpConn.cpp.o" \
 "CMakeFiles/login_server.dir/LoginConn.cpp.o" \
-"CMakeFiles/login_server.dir/ipparser.cpp.o" \
-"CMakeFiles/login_server.dir/login_server.cpp.o"
+"CMakeFiles/login_server.dir/login_server.cpp.o" \
+"CMakeFiles/login_server.dir/ipparser.cpp.o"
 
 # External object files for target login_server
 login_server_EXTERNAL_OBJECTS =
 
 login_server: CMakeFiles/login_server.dir/HttpConn.cpp.o
 login_server: CMakeFiles/login_server.dir/LoginConn.cpp.o
-login_server: CMakeFiles/login_server.dir/ipparser.cpp.o
 login_server: CMakeFiles/login_server.dir/login_server.cpp.o
+login_server: CMakeFiles/login_server.dir/ipparser.cpp.o
 login_server: CMakeFiles/login_server.dir/build.make
 login_server: CMakeFiles/login_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable login_server"
@@ -169,8 +169,8 @@ CMakeFiles/login_server.dir/build: login_server
 
 CMakeFiles/login_server.dir/requires: CMakeFiles/login_server.dir/HttpConn.cpp.o.requires
 CMakeFiles/login_server.dir/requires: CMakeFiles/login_server.dir/LoginConn.cpp.o.requires
-CMakeFiles/login_server.dir/requires: CMakeFiles/login_server.dir/ipparser.cpp.o.requires
 CMakeFiles/login_server.dir/requires: CMakeFiles/login_server.dir/login_server.cpp.o.requires
+CMakeFiles/login_server.dir/requires: CMakeFiles/login_server.dir/ipparser.cpp.o.requires
 .PHONY : CMakeFiles/login_server.dir/requires
 
 CMakeFiles/login_server.dir/clean:

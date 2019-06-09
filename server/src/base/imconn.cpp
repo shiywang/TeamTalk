@@ -12,7 +12,6 @@
 
 static CImConn* FindImConn(ConnMap_t* imconn_map, net_handle_t handle)
 {
-	log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
 	CImConn* pConn = NULL;
 	ConnMap_t::iterator iter = imconn_map->find(handle);
 	if (iter != imconn_map->end())
@@ -26,19 +25,22 @@ static CImConn* FindImConn(ConnMap_t* imconn_map, net_handle_t handle)
 
 void imconn_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pParam)
 {
-	log("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+	// log("DB: imconn_callback entering");
 	NOTUSED_ARG(handle);
 	NOTUSED_ARG(pParam);
-
-	if (!callback_data)
+	if (!callback_data) {
+		log("DB: callback_data is null");
 		return;
+	}
 
 	ConnMap_t* conn_map = (ConnMap_t*)callback_data;
 	CImConn* pConn = FindImConn(conn_map, handle);
-	if (!pConn)
+	if (!pConn) {
+		log("DB: imconn_callback find pConn is null, msg=%d, handle=%d ", msg, handle);
 		return;
+	}
 
-	log("msg=%d, handle=%d ", msg, handle);
+	// log("DB: msg=%d, handle=%d ", msg, handle);
 
 	switch (msg)
 	{
@@ -58,7 +60,6 @@ void imconn_callback(void* callback_data, uint8_t msg, uint32_t handle, void* pP
 		log("!!!imconn_callback error msg: %d ", msg);
 		break;
 	}
-
 	pConn->ReleaseRef();
 }
 
@@ -82,7 +83,6 @@ CImConn::~CImConn()
 int CImConn::Send(void* data, int len)
 {
 	m_last_send_tick = get_tick_count();
-//	++g_send_pkt_cnt;
 
 	if (m_busy)
 	{

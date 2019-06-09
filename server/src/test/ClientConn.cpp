@@ -12,6 +12,8 @@
 #include "playsound.h"
 #include "Common.h"
 
+static ConnMap_t g_client_conn_map;
+
 
 ClientConn::ClientConn():
 m_bOpen(false)
@@ -26,7 +28,10 @@ ClientConn::~ClientConn()
 
 net_handle_t ClientConn::connect(const string& strIp, uint16_t nPort, const string& strName, const string& strPass)
 {
-	m_handle = netlib_connect(strIp.c_str(), nPort, imconn_callback, NULL);
+	m_handle = netlib_connect(strIp.c_str(), nPort, imconn_callback, (void*)&g_client_conn_map);
+    if (m_handle != NETLIB_INVALID_HANDLE) {
+		g_client_conn_map.insert(make_pair(m_handle, this));
+	}
     return  m_handle;
 }
 
@@ -34,22 +39,31 @@ net_handle_t ClientConn::connect(const string& strIp, uint16_t nPort, const stri
 
 void ClientConn::OnConfirm()
 {
-    printf("OnConfirm............");
-    if(m_pCallback)
-    {
-        m_pCallback->onConnect();
+    log("OnConfirm............");
+
+	for (ConnMap_t::iterator it = g_client_conn_map.begin(); it != g_client_conn_map.end(); ) {
+		it_old = it;
+		it++;
+		pConn = (ClientConnOld*)it_old->second;
     }
+    pConn->onConnect();
+    
+    // if(m_pCallback)
+    // {
+    //     m_pCallback->onConnect();
+    // }
 }
 
 void ClientConn::OnClose()
 {
+    g_client_conn_map.erase(m_handle);
     printf("onclose from handle=%d\n", m_handle);
     Close();
 }
 
 void ClientConn::OnTimer(uint64_t curr_tick)
 {
-    printf("OnTimer............");
+    log("OnTimer............");
     if (curr_tick > m_last_send_tick + CLIENT_HEARTBEAT_INTERVAL) {
         CImPdu cPdu;
         IM::Other::IMHeartBeat msg;
@@ -71,7 +85,7 @@ void ClientConn::OnTimer(uint64_t curr_tick)
 
 uint32_t ClientConn::login(const string &strName, const string &strPass)
 {
-    printf("ClientConn:login.............");
+    log("ClientConn:login.............");
     CImPdu cPdu;
     IM::Login::IMLoginReq msg;
     msg.set_user_name(strName);
@@ -221,13 +235,10 @@ void ClientConn::Close()
 
 void ClientConn::HandlePdu(CImPdu* pPdu)
 {
-    log("1111111111111111Heartbeat\n");
     log("pdu type = %u\n", pPdu->GetServiceId());
-    printf("pdu type = %u\n", pPdu->GetCommandId());
+    printf("DB: ClientConn::HandlePdupdu type = %u\n", pPdu->GetCommandId());
 	switch (pPdu->GetCommandId()) {
         case IM::BaseDefine::CID_OTHER_HEARTBEAT:
-		printf("Heartbeat\n");
-        printf("Heartbeat\n");
 		break;
         case IM::BaseDefine::CID_LOGIN_RES_USERLOGIN:
             _HandleLoginResponse(pPdu);

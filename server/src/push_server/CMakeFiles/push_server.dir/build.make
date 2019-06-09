@@ -52,74 +52,74 @@ include CMakeFiles/push_server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/push_server.dir/flags.make
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.o: ConfigFileReader.cpp
+CMakeFiles/push_server.dir/apns_msg.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/apns_msg.cpp.o: apns_msg.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/ConfigFileReader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/ConfigFileReader.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_msg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_msg.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/ConfigFileReader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp > CMakeFiles/push_server.dir/ConfigFileReader.cpp.i
+CMakeFiles/push_server.dir/apns_msg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_msg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp > CMakeFiles/push_server.dir/apns_msg.cpp.i
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/ConfigFileReader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp -o CMakeFiles/push_server.dir/ConfigFileReader.cpp.s
+CMakeFiles/push_server.dir/apns_msg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_msg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp -o CMakeFiles/push_server.dir/apns_msg.cpp.s
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
+CMakeFiles/push_server.dir/apns_msg.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/apns_msg.cpp.o.requires
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides
+CMakeFiles/push_server.dir/apns_msg.cpp.o.provides: CMakeFiles/push_server.dir/apns_msg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_msg.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/apns_msg.cpp.o.provides
 
-CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides.build: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o
+CMakeFiles/push_server.dir/apns_msg.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_msg.cpp.o
 
-CMakeFiles/push_server.dir/apns_client.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/apns_client.cpp.o: apns_client.cpp
+CMakeFiles/push_server.dir/push_session_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/push_session_handler.cpp.o: push_session_handler.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_client.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_client.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_session_handler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_session_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp
 
-CMakeFiles/push_server.dir/apns_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_client.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp > CMakeFiles/push_server.dir/apns_client.cpp.i
+CMakeFiles/push_server.dir/push_session_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/push_session_handler.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp > CMakeFiles/push_server.dir/push_session_handler.cpp.i
 
-CMakeFiles/push_server.dir/apns_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_client.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp -o CMakeFiles/push_server.dir/apns_client.cpp.s
+CMakeFiles/push_server.dir/push_session_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/push_session_handler.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp -o CMakeFiles/push_server.dir/push_session_handler.cpp.s
 
-CMakeFiles/push_server.dir/apns_client.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/apns_client.cpp.o.requires
+CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
 
-CMakeFiles/push_server.dir/apns_client.cpp.o.provides: CMakeFiles/push_server.dir/apns_client.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_client.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/apns_client.cpp.o.provides
+CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides: CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides
 
-CMakeFiles/push_server.dir/apns_client.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_client.cpp.o
+CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/push_session_handler.cpp.o
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/apns_client_handler.cpp.o: apns_client_handler.cpp
+CMakeFiles/push_server.dir/push_server_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/push_server_handler.cpp.o: push_server_handler.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_client_handler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_client_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_server_handler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_server_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_client_handler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp > CMakeFiles/push_server.dir/apns_client_handler.cpp.i
+CMakeFiles/push_server.dir/push_server_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/push_server_handler.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp > CMakeFiles/push_server.dir/push_server_handler.cpp.i
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_client_handler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp -o CMakeFiles/push_server.dir/apns_client_handler.cpp.s
+CMakeFiles/push_server.dir/push_server_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/push_server_handler.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp -o CMakeFiles/push_server.dir/push_server_handler.cpp.s
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
+CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides: CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides
+CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides: CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides
 
-CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_client_handler.cpp.o
+CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/push_server_handler.cpp.o
 
 CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o: apns_feedback_handler.cpp
@@ -144,55 +144,9 @@ CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o.provides: CMakeFiles/push
 
 CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o
 
-CMakeFiles/push_server.dir/apns_msg.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/apns_msg.cpp.o: apns_msg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_msg.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_msg.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp
-
-CMakeFiles/push_server.dir/apns_msg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_msg.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp > CMakeFiles/push_server.dir/apns_msg.cpp.i
-
-CMakeFiles/push_server.dir/apns_msg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_msg.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_msg.cpp -o CMakeFiles/push_server.dir/apns_msg.cpp.s
-
-CMakeFiles/push_server.dir/apns_msg.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/apns_msg.cpp.o.requires
-
-CMakeFiles/push_server.dir/apns_msg.cpp.o.provides: CMakeFiles/push_server.dir/apns_msg.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_msg.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/apns_msg.cpp.o.provides
-
-CMakeFiles/push_server.dir/apns_msg.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_msg.cpp.o
-
-CMakeFiles/push_server.dir/byte_stream.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/byte_stream.cpp.o: byte_stream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/byte_stream.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/byte_stream.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp
-
-CMakeFiles/push_server.dir/byte_stream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/byte_stream.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp > CMakeFiles/push_server.dir/byte_stream.cpp.i
-
-CMakeFiles/push_server.dir/byte_stream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/byte_stream.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp -o CMakeFiles/push_server.dir/byte_stream.cpp.s
-
-CMakeFiles/push_server.dir/byte_stream.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
-
-CMakeFiles/push_server.dir/byte_stream.cpp.o.provides: CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/byte_stream.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/byte_stream.cpp.o.provides
-
-CMakeFiles/push_server.dir/byte_stream.cpp.o.provides.build: CMakeFiles/push_server.dir/byte_stream.cpp.o
-
 CMakeFiles/push_server.dir/jsonxx.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/jsonxx.cpp.o: jsonxx.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/jsonxx.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/jsonxx.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/jsonxx.cpp
 
@@ -213,55 +167,32 @@ CMakeFiles/push_server.dir/jsonxx.cpp.o.provides: CMakeFiles/push_server.dir/jso
 
 CMakeFiles/push_server.dir/jsonxx.cpp.o.provides.build: CMakeFiles/push_server.dir/jsonxx.cpp.o
 
-CMakeFiles/push_server.dir/main.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/main.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/main.cpp
+CMakeFiles/push_server.dir/apns_client_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/apns_client_handler.cpp.o: apns_client_handler.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_client_handler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_client_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp
 
-CMakeFiles/push_server.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/main.cpp > CMakeFiles/push_server.dir/main.cpp.i
+CMakeFiles/push_server.dir/apns_client_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_client_handler.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp > CMakeFiles/push_server.dir/apns_client_handler.cpp.i
 
-CMakeFiles/push_server.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/main.cpp -o CMakeFiles/push_server.dir/main.cpp.s
+CMakeFiles/push_server.dir/apns_client_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_client_handler.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_client_handler.cpp -o CMakeFiles/push_server.dir/apns_client_handler.cpp.s
 
-CMakeFiles/push_server.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/main.cpp.o.requires
+CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
 
-CMakeFiles/push_server.dir/main.cpp.o.provides: CMakeFiles/push_server.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/main.cpp.o.provides
+CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides: CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides
 
-CMakeFiles/push_server.dir/main.cpp.o.provides.build: CMakeFiles/push_server.dir/main.cpp.o
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/pdu_msg.cpp.o: pdu_msg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/pdu_msg.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/pdu_msg.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/pdu_msg.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp > CMakeFiles/push_server.dir/pdu_msg.cpp.i
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/pdu_msg.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp -o CMakeFiles/push_server.dir/pdu_msg.cpp.s
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides: CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides
-
-CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides.build: CMakeFiles/push_server.dir/pdu_msg.cpp.o
+CMakeFiles/push_server.dir/apns_client_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_client_handler.cpp.o
 
 CMakeFiles/push_server.dir/push_app.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/push_app.cpp.o: push_app.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_app.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_app.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_app.cpp
 
@@ -284,7 +215,7 @@ CMakeFiles/push_server.dir/push_app.cpp.o.provides.build: CMakeFiles/push_server
 
 CMakeFiles/push_server.dir/push_server.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/push_server.cpp.o: push_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_server.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_server.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_server.cpp
 
@@ -305,32 +236,9 @@ CMakeFiles/push_server.dir/push_server.cpp.o.provides: CMakeFiles/push_server.di
 
 CMakeFiles/push_server.dir/push_server.cpp.o.provides.build: CMakeFiles/push_server.dir/push_server.cpp.o
 
-CMakeFiles/push_server.dir/push_server_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/push_server_handler.cpp.o: push_server_handler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_server_handler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_server_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp
-
-CMakeFiles/push_server.dir/push_server_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/push_server_handler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp > CMakeFiles/push_server.dir/push_server_handler.cpp.i
-
-CMakeFiles/push_server.dir/push_server_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/push_server_handler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/push_server_handler.cpp -o CMakeFiles/push_server.dir/push_server_handler.cpp.s
-
-CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
-
-CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides: CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides
-
-CMakeFiles/push_server.dir/push_server_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/push_server_handler.cpp.o
-
 CMakeFiles/push_server.dir/push_session.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/push_session.cpp.o: push_session.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_session.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_session.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_session.cpp
 
@@ -351,28 +259,120 @@ CMakeFiles/push_server.dir/push_session.cpp.o.provides: CMakeFiles/push_server.d
 
 CMakeFiles/push_server.dir/push_session.cpp.o.provides.build: CMakeFiles/push_server.dir/push_session.cpp.o
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/push_session_handler.cpp.o: push_session_handler.cpp
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.o: ConfigFileReader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/ConfigFileReader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/ConfigFileReader.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp
+
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/ConfigFileReader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp > CMakeFiles/push_server.dir/ConfigFileReader.cpp.i
+
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/ConfigFileReader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/ConfigFileReader.cpp -o CMakeFiles/push_server.dir/ConfigFileReader.cpp.s
+
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
+
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides
+
+CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.provides.build: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o
+
+CMakeFiles/push_server.dir/main.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/main.cpp.o: main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/main.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/main.cpp
+
+CMakeFiles/push_server.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/main.cpp > CMakeFiles/push_server.dir/main.cpp.i
+
+CMakeFiles/push_server.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/main.cpp -o CMakeFiles/push_server.dir/main.cpp.s
+
+CMakeFiles/push_server.dir/main.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/main.cpp.o.requires
+
+CMakeFiles/push_server.dir/main.cpp.o.provides: CMakeFiles/push_server.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/main.cpp.o.provides
+
+CMakeFiles/push_server.dir/main.cpp.o.provides.build: CMakeFiles/push_server.dir/main.cpp.o
+
+CMakeFiles/push_server.dir/byte_stream.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/byte_stream.cpp.o: byte_stream.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/byte_stream.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/byte_stream.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp
+
+CMakeFiles/push_server.dir/byte_stream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/byte_stream.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp > CMakeFiles/push_server.dir/byte_stream.cpp.i
+
+CMakeFiles/push_server.dir/byte_stream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/byte_stream.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/byte_stream.cpp -o CMakeFiles/push_server.dir/byte_stream.cpp.s
+
+CMakeFiles/push_server.dir/byte_stream.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
+
+CMakeFiles/push_server.dir/byte_stream.cpp.o.provides: CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/byte_stream.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/byte_stream.cpp.o.provides
+
+CMakeFiles/push_server.dir/byte_stream.cpp.o.provides.build: CMakeFiles/push_server.dir/byte_stream.cpp.o
+
+CMakeFiles/push_server.dir/apns_client.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/apns_client.cpp.o: apns_client.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/apns_client.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/apns_client.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp
+
+CMakeFiles/push_server.dir/apns_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/apns_client.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp > CMakeFiles/push_server.dir/apns_client.cpp.i
+
+CMakeFiles/push_server.dir/apns_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/apns_client.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/apns_client.cpp -o CMakeFiles/push_server.dir/apns_client.cpp.s
+
+CMakeFiles/push_server.dir/apns_client.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/apns_client.cpp.o.requires
+
+CMakeFiles/push_server.dir/apns_client.cpp.o.provides: CMakeFiles/push_server.dir/apns_client.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/apns_client.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/apns_client.cpp.o.provides
+
+CMakeFiles/push_server.dir/apns_client.cpp.o.provides.build: CMakeFiles/push_server.dir/apns_client.cpp.o
+
+CMakeFiles/push_server.dir/pdu_msg.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/pdu_msg.cpp.o: pdu_msg.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/push_session_handler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/push_session_handler.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/pdu_msg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/pdu_msg.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/push_session_handler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp > CMakeFiles/push_server.dir/push_session_handler.cpp.i
+CMakeFiles/push_server.dir/pdu_msg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/pdu_msg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp > CMakeFiles/push_server.dir/pdu_msg.cpp.i
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/push_session_handler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/push_session_handler.cpp -o CMakeFiles/push_server.dir/push_session_handler.cpp.s
+CMakeFiles/push_server.dir/pdu_msg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/pdu_msg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/pdu_msg.cpp -o CMakeFiles/push_server.dir/pdu_msg.cpp.s
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
+CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides: CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides
+CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides: CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides
 
-CMakeFiles/push_server.dir/push_session_handler.cpp.o.provides.build: CMakeFiles/push_server.dir/push_session_handler.cpp.o
+CMakeFiles/push_server.dir/pdu_msg.cpp.o.provides.build: CMakeFiles/push_server.dir/pdu_msg.cpp.o
 
 CMakeFiles/push_server.dir/session_manager.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/session_manager.cpp.o: session_manager.cpp
@@ -397,32 +397,9 @@ CMakeFiles/push_server.dir/session_manager.cpp.o.provides: CMakeFiles/push_serve
 
 CMakeFiles/push_server.dir/session_manager.cpp.o.provides.build: CMakeFiles/push_server.dir/session_manager.cpp.o
 
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o: socket/base_io_stream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp
-
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp > CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i
-
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp -o CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s
-
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
-
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides
-
-CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o
-
 CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o: socket/epoll_io_loop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/epoll_io_loop.cpp
 
@@ -443,101 +420,9 @@ CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o.provides: CMakeFiles/push_
 
 CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o
 
-CMakeFiles/push_server.dir/socket/io_loop.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/socket/io_loop.cpp.o: socket/io_loop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/io_loop.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/io_loop.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp
-
-CMakeFiles/push_server.dir/socket/io_loop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/io_loop.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp > CMakeFiles/push_server.dir/socket/io_loop.cpp.i
-
-CMakeFiles/push_server.dir/socket/io_loop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/io_loop.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp -o CMakeFiles/push_server.dir/socket/io_loop.cpp.s
-
-CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
-
-CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides: CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides
-
-CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/io_loop.cpp.o
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o: socket/ssl_client_async.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp > CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp -o CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides
-
-CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o: socket/tcp_client_async.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp > CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp -o CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides
-
-CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.o: socket/tcp_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/tcp_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/tcp_server.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/tcp_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp > CMakeFiles/push_server.dir/socket/tcp_server.cpp.i
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/tcp_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp -o CMakeFiles/push_server.dir/socket/tcp_server.cpp.s
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires:
-.PHONY : CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides
-
-CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o
-
 CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o: socket/tcp_session_async.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_session_async.cpp
 
@@ -558,101 +443,124 @@ CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o.provides: CMakeFiles/p
 
 CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o: socket/base_io_stream.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp > CMakeFiles/push_server.dir/socket/base_io_stream.cpp.i
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/base_io_stream.cpp -o CMakeFiles/push_server.dir/socket/base_io_stream.cpp.s
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires:
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o
+CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
+CMakeFiles/push_server.dir/socket/io_loop.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/socket/io_loop.cpp.o: socket/io_loop.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/io_loop.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/io_loop.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i
+CMakeFiles/push_server.dir/socket/io_loop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/io_loop.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp > CMakeFiles/push_server.dir/socket/io_loop.cpp.i
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s
+CMakeFiles/push_server.dir/socket/io_loop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/io_loop.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/io_loop.cpp -o CMakeFiles/push_server.dir/socket/io_loop.cpp.s
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires:
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
+CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides
+CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides: CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o
+CMakeFiles/push_server.dir/socket/io_loop.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/io_loop.cpp.o
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.o: socket/tcp_server.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/tcp_server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/tcp_server.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/tcp_server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp > CMakeFiles/push_server.dir/socket/tcp_server.cpp.i
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/tcp_server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_server.cpp -o CMakeFiles/push_server.dir/socket/tcp_server.cpp.s
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires:
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o
+CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_26)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o: socket/tcp_client_async.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp > CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.i
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/tcp_client_async.cpp -o CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.s
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires:
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o
+CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o: socket/ssl_client_async.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o -c /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp > CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.i
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/push_server/socket/ssl_client_async.cpp -o CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.s
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires:
+.PHONY : CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides
+
+CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.provides.build: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o
 
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc
 
@@ -675,7 +583,7 @@ CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.
 
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc
 
@@ -696,32 +604,9 @@ CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.
 
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o
 
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o: CMakeFiles/push_server.dir/flags.make
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_29)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
-
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i
-
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s
-
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires:
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
-
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
-	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides.build
-.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides
-
-CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o
-
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc
 
@@ -742,9 +627,101 @@ CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.
 
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o
 
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.i
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.s
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires:
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_27)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.i
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.s
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires:
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_28)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.i
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.s
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires:
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.i
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.s
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires:
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o
+
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o: CMakeFiles/push_server.dir/flags.make
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc
 
@@ -765,74 +742,97 @@ CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.
 
 CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o
 
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o: CMakeFiles/push_server.dir/flags.make
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o: /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/push_server/CMakeFiles $(CMAKE_PROGRESS_31)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o -c /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc > CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.i
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc -o CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.s
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires:
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
+	$(MAKE) -f CMakeFiles/push_server.dir/build.make CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build
+.PHONY : CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides
+
+CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.provides.build: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o
+
 # Object files for target push_server
 push_server_OBJECTS = \
-"CMakeFiles/push_server.dir/ConfigFileReader.cpp.o" \
-"CMakeFiles/push_server.dir/apns_client.cpp.o" \
-"CMakeFiles/push_server.dir/apns_client_handler.cpp.o" \
-"CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o" \
 "CMakeFiles/push_server.dir/apns_msg.cpp.o" \
-"CMakeFiles/push_server.dir/byte_stream.cpp.o" \
+"CMakeFiles/push_server.dir/push_session_handler.cpp.o" \
+"CMakeFiles/push_server.dir/push_server_handler.cpp.o" \
+"CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o" \
 "CMakeFiles/push_server.dir/jsonxx.cpp.o" \
-"CMakeFiles/push_server.dir/main.cpp.o" \
-"CMakeFiles/push_server.dir/pdu_msg.cpp.o" \
+"CMakeFiles/push_server.dir/apns_client_handler.cpp.o" \
 "CMakeFiles/push_server.dir/push_app.cpp.o" \
 "CMakeFiles/push_server.dir/push_server.cpp.o" \
-"CMakeFiles/push_server.dir/push_server_handler.cpp.o" \
 "CMakeFiles/push_server.dir/push_session.cpp.o" \
-"CMakeFiles/push_server.dir/push_session_handler.cpp.o" \
+"CMakeFiles/push_server.dir/ConfigFileReader.cpp.o" \
+"CMakeFiles/push_server.dir/main.cpp.o" \
+"CMakeFiles/push_server.dir/byte_stream.cpp.o" \
+"CMakeFiles/push_server.dir/apns_client.cpp.o" \
+"CMakeFiles/push_server.dir/pdu_msg.cpp.o" \
 "CMakeFiles/push_server.dir/session_manager.cpp.o" \
-"CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o" \
 "CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o" \
-"CMakeFiles/push_server.dir/socket/io_loop.cpp.o" \
-"CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o" \
-"CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o" \
-"CMakeFiles/push_server.dir/socket/tcp_server.cpp.o" \
 "CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o" \
+"CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o" \
+"CMakeFiles/push_server.dir/socket/io_loop.cpp.o" \
+"CMakeFiles/push_server.dir/socket/tcp_server.cpp.o" \
+"CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o" \
+"CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o" \
 "CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o" \
 "CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o" \
 "CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o" \
-"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o"
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o" \
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o" \
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o" \
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o" \
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o" \
+"CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o"
 
 # External object files for target push_server
 push_server_EXTERNAL_OBJECTS =
 
-push_server: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o
-push_server: CMakeFiles/push_server.dir/apns_client.cpp.o
-push_server: CMakeFiles/push_server.dir/apns_client_handler.cpp.o
-push_server: CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o
 push_server: CMakeFiles/push_server.dir/apns_msg.cpp.o
-push_server: CMakeFiles/push_server.dir/byte_stream.cpp.o
+push_server: CMakeFiles/push_server.dir/push_session_handler.cpp.o
+push_server: CMakeFiles/push_server.dir/push_server_handler.cpp.o
+push_server: CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o
 push_server: CMakeFiles/push_server.dir/jsonxx.cpp.o
-push_server: CMakeFiles/push_server.dir/main.cpp.o
-push_server: CMakeFiles/push_server.dir/pdu_msg.cpp.o
+push_server: CMakeFiles/push_server.dir/apns_client_handler.cpp.o
 push_server: CMakeFiles/push_server.dir/push_app.cpp.o
 push_server: CMakeFiles/push_server.dir/push_server.cpp.o
-push_server: CMakeFiles/push_server.dir/push_server_handler.cpp.o
 push_server: CMakeFiles/push_server.dir/push_session.cpp.o
-push_server: CMakeFiles/push_server.dir/push_session_handler.cpp.o
+push_server: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o
+push_server: CMakeFiles/push_server.dir/main.cpp.o
+push_server: CMakeFiles/push_server.dir/byte_stream.cpp.o
+push_server: CMakeFiles/push_server.dir/apns_client.cpp.o
+push_server: CMakeFiles/push_server.dir/pdu_msg.cpp.o
 push_server: CMakeFiles/push_server.dir/session_manager.cpp.o
-push_server: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o
 push_server: CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o
-push_server: CMakeFiles/push_server.dir/socket/io_loop.cpp.o
-push_server: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o
-push_server: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o
-push_server: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o
 push_server: CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o
-push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o
-push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o
-push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o
-push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o
+push_server: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o
+push_server: CMakeFiles/push_server.dir/socket/io_loop.cpp.o
+push_server: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o
+push_server: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o
+push_server: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o
 push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o
 push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o
-push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o
 push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o
+push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o
+push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o
+push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o
+push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o
 push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o
+push_server: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o
 push_server: CMakeFiles/push_server.dir/build.make
 push_server: CMakeFiles/push_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable push_server"
@@ -842,37 +842,37 @@ push_server: CMakeFiles/push_server.dir/link.txt
 CMakeFiles/push_server.dir/build: push_server
 .PHONY : CMakeFiles/push_server.dir/build
 
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_client.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_msg.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_feedback_handler.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/jsonxx.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/main.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_client_handler.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_app.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_server.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_server_handler.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_session.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/push_session_handler.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/ConfigFileReader.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/main.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/byte_stream.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/apns_client.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/pdu_msg.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/session_manager.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/epoll_io_loop.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/tcp_session_async.cpp.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/base_io_stream.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/io_loop.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/tcp_server.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/tcp_client_async.cpp.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/socket/ssl_client_async.cpp.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Login.pb.cc.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Message.pb.cc.o.requires
-CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Server.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Other.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Group.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.Buddy.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.File.pb.cc.o.requires
 CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.SwitchService.pb.cc.o.requires
+CMakeFiles/push_server.dir/requires: CMakeFiles/push_server.dir/home/vagrant/TeamTalk/server/src/base/pb/protocol/IM.BaseDefine.pb.cc.o.requires
 .PHONY : CMakeFiles/push_server.dir/requires
 
 CMakeFiles/push_server.dir/clean:

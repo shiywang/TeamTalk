@@ -53,12 +53,20 @@ net_handle_t netlib_connect(
 		void*		callback_data)
 {
 	CBaseSocket* pSocket = new CBaseSocket();
-	if (!pSocket)
+	if (!pSocket) {
+		log("DB: netlib_connect pSocket is null");
 		return NETLIB_INVALID_HANDLE;
+	}
 
 	net_handle_t handle = pSocket->Connect(server_ip, port, callback, callback_data);
-	if (handle == NETLIB_INVALID_HANDLE)
+	if (handle == NETLIB_INVALID_HANDLE) {
+		log("DB: netlib_connect invalid handle");
 		delete pSocket;
+	}
+
+
+	log("DB: netlib_connect  handle  %d", handle);
+
 	return handle;
 }
 
@@ -98,12 +106,17 @@ int netlib_close(net_handle_t handle)
 
 int netlib_option(net_handle_t handle, int opt, void* optval)
 {
+	log("DB: netlib_option entering, %d", handle);
 	CBaseSocket* pSocket = FindBaseSocket(handle);
 	if (!pSocket)
 		return NETLIB_ERROR;
 
+	log("DB: netlib_option pSocket exist");
+
 	if ((opt >= NETLIB_OPT_GET_REMOTE_IP) && !optval)
 		return NETLIB_ERROR;
+
+	log("DB: netlib_option opt is %d", opt);
 
 	switch (opt)
 	{

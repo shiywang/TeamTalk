@@ -6,3 +6,8 @@ php/
 ios/
 win-client/
 server/run/
+server/src/log4cxx/
+*.tar.gz
+win-client/
+server/src/log4cxx/
+*.o

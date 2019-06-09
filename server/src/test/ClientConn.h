@@ -21,6 +21,7 @@
 #include "IM.Message.pb.h"
 #include "IM.Group.pb.h"
 #include "IPacketCallback.h"
+#include "Client.h"
 #include "SeqAlloctor.h"
 
 class ClientConn : public CImConn
@@ -61,7 +62,7 @@ private:
     
 private:
 	bool 		m_bOpen;
-    IPacketCallback* m_pCallback;
+    CClient*    m_pCallback;
     CSeqAlloctor*   m_pSeqAlloctor;
     
 };

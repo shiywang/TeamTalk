@@ -52,9 +52,32 @@ include CMakeFiles/msfs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/msfs.dir/flags.make
 
+CMakeFiles/msfs.dir/StringUtils.cpp.o: CMakeFiles/msfs.dir/flags.make
+CMakeFiles/msfs.dir/StringUtils.cpp.o: StringUtils.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/msfs.dir/StringUtils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/msfs.dir/StringUtils.cpp.o -c /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp
+
+CMakeFiles/msfs.dir/StringUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msfs.dir/StringUtils.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp > CMakeFiles/msfs.dir/StringUtils.cpp.i
+
+CMakeFiles/msfs.dir/StringUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msfs.dir/StringUtils.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp -o CMakeFiles/msfs.dir/StringUtils.cpp.s
+
+CMakeFiles/msfs.dir/StringUtils.cpp.o.requires:
+.PHONY : CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
+
+CMakeFiles/msfs.dir/StringUtils.cpp.o.provides: CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/msfs.dir/build.make CMakeFiles/msfs.dir/StringUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/msfs.dir/StringUtils.cpp.o.provides
+
+CMakeFiles/msfs.dir/StringUtils.cpp.o.provides.build: CMakeFiles/msfs.dir/StringUtils.cpp.o
+
 CMakeFiles/msfs.dir/FileLin.cpp.o: CMakeFiles/msfs.dir/flags.make
 CMakeFiles/msfs.dir/FileLin.cpp.o: FileLin.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/msfs.dir/FileLin.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/msfs.dir/FileLin.cpp.o -c /home/vagrant/TeamTalk/server/src/msfs/FileLin.cpp
 
@@ -77,7 +100,7 @@ CMakeFiles/msfs.dir/FileLin.cpp.o.provides.build: CMakeFiles/msfs.dir/FileLin.cp
 
 CMakeFiles/msfs.dir/FileManager.cpp.o: CMakeFiles/msfs.dir/flags.make
 CMakeFiles/msfs.dir/FileManager.cpp.o: FileManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/msfs.dir/FileManager.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/msfs.dir/FileManager.cpp.o -c /home/vagrant/TeamTalk/server/src/msfs/FileManager.cpp
 
@@ -100,7 +123,7 @@ CMakeFiles/msfs.dir/FileManager.cpp.o.provides.build: CMakeFiles/msfs.dir/FileMa
 
 CMakeFiles/msfs.dir/HttpConn.cpp.o: CMakeFiles/msfs.dir/flags.make
 CMakeFiles/msfs.dir/HttpConn.cpp.o: HttpConn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/msfs.dir/HttpConn.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/msfs.dir/HttpConn.cpp.o -c /home/vagrant/TeamTalk/server/src/msfs/HttpConn.cpp
 
@@ -120,29 +143,6 @@ CMakeFiles/msfs.dir/HttpConn.cpp.o.provides: CMakeFiles/msfs.dir/HttpConn.cpp.o.
 .PHONY : CMakeFiles/msfs.dir/HttpConn.cpp.o.provides
 
 CMakeFiles/msfs.dir/HttpConn.cpp.o.provides.build: CMakeFiles/msfs.dir/HttpConn.cpp.o
-
-CMakeFiles/msfs.dir/StringUtils.cpp.o: CMakeFiles/msfs.dir/flags.make
-CMakeFiles/msfs.dir/StringUtils.cpp.o: StringUtils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/msfs/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/msfs.dir/StringUtils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/msfs.dir/StringUtils.cpp.o -c /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp
-
-CMakeFiles/msfs.dir/StringUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msfs.dir/StringUtils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp > CMakeFiles/msfs.dir/StringUtils.cpp.i
-
-CMakeFiles/msfs.dir/StringUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msfs.dir/StringUtils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/msfs/StringUtils.cpp -o CMakeFiles/msfs.dir/StringUtils.cpp.s
-
-CMakeFiles/msfs.dir/StringUtils.cpp.o.requires:
-.PHONY : CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
-
-CMakeFiles/msfs.dir/StringUtils.cpp.o.provides: CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
-	$(MAKE) -f CMakeFiles/msfs.dir/build.make CMakeFiles/msfs.dir/StringUtils.cpp.o.provides.build
-.PHONY : CMakeFiles/msfs.dir/StringUtils.cpp.o.provides
-
-CMakeFiles/msfs.dir/StringUtils.cpp.o.provides.build: CMakeFiles/msfs.dir/StringUtils.cpp.o
 
 CMakeFiles/msfs.dir/main.cpp.o: CMakeFiles/msfs.dir/flags.make
 CMakeFiles/msfs.dir/main.cpp.o: main.cpp
@@ -169,19 +169,19 @@ CMakeFiles/msfs.dir/main.cpp.o.provides.build: CMakeFiles/msfs.dir/main.cpp.o
 
 # Object files for target msfs
 msfs_OBJECTS = \
+"CMakeFiles/msfs.dir/StringUtils.cpp.o" \
 "CMakeFiles/msfs.dir/FileLin.cpp.o" \
 "CMakeFiles/msfs.dir/FileManager.cpp.o" \
 "CMakeFiles/msfs.dir/HttpConn.cpp.o" \
-"CMakeFiles/msfs.dir/StringUtils.cpp.o" \
 "CMakeFiles/msfs.dir/main.cpp.o"
 
 # External object files for target msfs
 msfs_EXTERNAL_OBJECTS =
 
+msfs: CMakeFiles/msfs.dir/StringUtils.cpp.o
 msfs: CMakeFiles/msfs.dir/FileLin.cpp.o
 msfs: CMakeFiles/msfs.dir/FileManager.cpp.o
 msfs: CMakeFiles/msfs.dir/HttpConn.cpp.o
-msfs: CMakeFiles/msfs.dir/StringUtils.cpp.o
 msfs: CMakeFiles/msfs.dir/main.cpp.o
 msfs: CMakeFiles/msfs.dir/build.make
 msfs: CMakeFiles/msfs.dir/link.txt
@@ -192,10 +192,10 @@ msfs: CMakeFiles/msfs.dir/link.txt
 CMakeFiles/msfs.dir/build: msfs
 .PHONY : CMakeFiles/msfs.dir/build
 
+CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
 CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/FileLin.cpp.o.requires
 CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/FileManager.cpp.o.requires
 CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/HttpConn.cpp.o.requires
-CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/StringUtils.cpp.o.requires
 CMakeFiles/msfs.dir/requires: CMakeFiles/msfs.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/msfs.dir/requires
 

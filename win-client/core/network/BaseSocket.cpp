@@ -97,6 +97,7 @@ net_handle_t CBaseSocket::Connect(const char* server_ip, uint16_t port, callback
 	m_socket = socket(AF_INET, SOCK_STREAM, 0);
 	if (m_socket == INVALID_SOCKET)
 	{
+		log("DB: socket failed, err_code=%d", _GetErrorCode());
 		LOG__(NET,  _T("socket failed, err_code=%d"), _GetErrorCode());
 		return NETLIB_INVALID_HANDLE;
 	}
@@ -109,6 +110,7 @@ net_handle_t CBaseSocket::Connect(const char* server_ip, uint16_t port, callback
 	int ret = connect(m_socket, (sockaddr*)&serv_addr, sizeof(serv_addr));
 	if ( (ret == SOCKET_ERROR) && (!_IsBlock(_GetErrorCode())) )
 	{
+		log("DB: connect failed, err_code=%d", _GetErrorCode());
 		LOG__(NET,  _T("connect failed, err_code=%d"), _GetErrorCode());
 		closesocket(m_socket);
 		return NETLIB_INVALID_HANDLE;

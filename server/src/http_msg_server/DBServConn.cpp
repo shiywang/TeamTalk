@@ -152,7 +152,7 @@ CDBServConn::~CDBServConn()
 
 void CDBServConn::Connect(const char* server_ip, uint16_t server_port, uint32_t serv_idx)
 {
-	log("Connecting to DB Storage Server %s:%d", server_ip, server_port);
+	log("DB: Connecting to DB Storage Server %s:%d", server_ip, server_port);
 
 	m_serv_idx = serv_idx;
 	m_handle = netlib_connect(server_ip, server_port, imconn_callback, (void*)&g_db_server_conn_map);

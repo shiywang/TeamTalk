@@ -51,23 +51,24 @@ void CClient::connect()
     CHttpClient httpClient;
     string strUrl = m_strLoginDomain + "/msg_server";
     string strResp;
-    CURLcode nRet = httpClient.Get(strUrl, strResp);
-    if(nRet != CURLE_OK)
-    {
-        printf("login falied. access url:%s error\n", strUrl.c_str());
-        PROMPTION;
-        return;
-    }
-    Json::Reader reader;
-    Json::Value value;
-    if(!reader.parse(strResp, value))
-    {
-        printf("login falied. parse response error:%s\n", strResp.c_str());
-        PROMPTION;
-        return;
-    }
     string strPriorIp, strBackupIp;
     uint16_t nPort;
+
+    // CURLcode nRet = httpClient.Get(strUrl, strResp);
+    // if(nRet != CURLE_OK)
+    // {
+    //     printf("login falied. access url:%s error\n", strUrl.c_str());
+    //     PROMPTION;
+    //     return;
+    // }
+    // Json::Reader reader;
+    // Json::Value value;
+    // if(!reader.parse(strResp, value))
+    // {
+    //     printf("login falied. parse response error:%s\n", strResp.c_str());
+    //     PROMPTION;
+    //     return;
+    // }
     // try {
     //     uint32_t nRet = value["code"].asUInt();
     //     if(nRet != 0)
@@ -101,7 +102,7 @@ void CClient::connect()
     m_nHandle = g_pConn->connect(strPriorIp.c_str(), nPort, m_strName, m_strPass);
     if(m_nHandle != INVALID_SOCKET)
     {
-        printf("connect succeed");
+        log("connect succeed");
         netlib_register_timer(CClient::TimerCallback, NULL, 1000);
     }
     else

@@ -269,10 +269,10 @@ void CMsgConn::OnTimer(uint64_t curr_tick)
 
 void CMsgConn::HandlePdu(CImPdu* pPdu)
 {
-    log("CMsgConn::HandlePdu");
+    log("DB: CMsgConn::HandlePdu cmd id=%d ", pPdu->GetCommandId());
 	// request authorization check
 	if (pPdu->GetCommandId() != CID_LOGIN_REQ_USERLOGIN && !IsOpen() && IsKickOff()) {
-        log("HandlePdu, wrong msg. ");
+        log("DB: CMsgConn::HandlePdu wrong msg. mcd id =%d", pPdu->GetCommandId());
         throw CPduException(pPdu->GetServiceId(), pPdu->GetCommandId(), ERROR_CODE_WRONG_SERVICE_ID, "HandlePdu error, user not login. ");
 		return;
     }

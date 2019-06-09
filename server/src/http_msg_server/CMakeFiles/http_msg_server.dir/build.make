@@ -52,28 +52,28 @@ include CMakeFiles/http_msg_server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/http_msg_server.dir/flags.make
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
-CMakeFiles/http_msg_server.dir/AttachData.cpp.o: AttachData.cpp
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o: RouteServConn.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/AttachData.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/AttachData.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/AttachData.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp > CMakeFiles/http_msg_server.dir/AttachData.cpp.i
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp > CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/AttachData.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp -o CMakeFiles/http_msg_server.dir/AttachData.cpp.s
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp -o CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires:
-.PHONY : CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires:
+.PHONY : CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides: CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
-	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides.build
-.PHONY : CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides.build
+.PHONY : CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides
 
-CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/AttachData.cpp.o
+CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o
 
 CMakeFiles/http_msg_server.dir/DBServConn.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
 CMakeFiles/http_msg_server.dir/DBServConn.cpp.o: DBServConn.cpp
@@ -98,32 +98,9 @@ CMakeFiles/http_msg_server.dir/DBServConn.cpp.o.provides: CMakeFiles/http_msg_se
 
 CMakeFiles/http_msg_server.dir/DBServConn.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/DBServConn.cpp.o
 
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.o: HttpConn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/HttpConn.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/HttpConn.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp
-
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/HttpConn.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp > CMakeFiles/http_msg_server.dir/HttpConn.cpp.i
-
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/HttpConn.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp -o CMakeFiles/http_msg_server.dir/HttpConn.cpp.s
-
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires:
-.PHONY : CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
-
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides.build
-.PHONY : CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides
-
-CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o
-
 CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
 CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o: HttpPdu.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/HttpPdu.cpp
 
@@ -144,55 +121,55 @@ CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o.provides: CMakeFiles/http_msg_serve
 
 CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o: HttpQuery.cpp
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.o: HttpConn.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/HttpConn.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/HttpConn.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp
+
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/HttpConn.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp > CMakeFiles/http_msg_server.dir/HttpConn.cpp.i
+
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/HttpConn.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/HttpConn.cpp -o CMakeFiles/http_msg_server.dir/HttpConn.cpp.s
+
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires:
+.PHONY : CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
+
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides.build
+.PHONY : CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides
+
+CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o
+
+CMakeFiles/http_msg_server.dir/AttachData.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
+CMakeFiles/http_msg_server.dir/AttachData.cpp.o: AttachData.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/AttachData.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/AttachData.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp > CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i
+CMakeFiles/http_msg_server.dir/AttachData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/AttachData.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp > CMakeFiles/http_msg_server.dir/AttachData.cpp.i
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp -o CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s
+CMakeFiles/http_msg_server.dir/AttachData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/AttachData.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/AttachData.cpp -o CMakeFiles/http_msg_server.dir/AttachData.cpp.s
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires:
-.PHONY : CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
+CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires:
+.PHONY : CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
-	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides.build
-.PHONY : CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides
+CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides: CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
+	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides.build
+.PHONY : CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides
 
-CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o: RouteServConn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp > CMakeFiles/http_msg_server.dir/RouteServConn.cpp.i
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/RouteServConn.cpp -o CMakeFiles/http_msg_server.dir/RouteServConn.cpp.s
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires:
-.PHONY : CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires
-	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides.build
-.PHONY : CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides
-
-CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o
+CMakeFiles/http_msg_server.dir/AttachData.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/AttachData.cpp.o
 
 CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
 CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o: http_msg_server.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/http_msg_server.cpp
 
@@ -213,26 +190,49 @@ CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o.provides: CMakeFiles/http_m
 
 CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o
 
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o: CMakeFiles/http_msg_server.dir/flags.make
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o: HttpQuery.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vagrant/TeamTalk/server/src/http_msg_server/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o -c /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp
+
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp > CMakeFiles/http_msg_server.dir/HttpQuery.cpp.i
+
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/vagrant/TeamTalk/server/src/http_msg_server/HttpQuery.cpp -o CMakeFiles/http_msg_server.dir/HttpQuery.cpp.s
+
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires:
+.PHONY : CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
+
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
+	$(MAKE) -f CMakeFiles/http_msg_server.dir/build.make CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides.build
+.PHONY : CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides
+
+CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.provides.build: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o
+
 # Object files for target http_msg_server
 http_msg_server_OBJECTS = \
-"CMakeFiles/http_msg_server.dir/AttachData.cpp.o" \
-"CMakeFiles/http_msg_server.dir/DBServConn.cpp.o" \
-"CMakeFiles/http_msg_server.dir/HttpConn.cpp.o" \
-"CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o" \
-"CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o" \
 "CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o" \
-"CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o"
+"CMakeFiles/http_msg_server.dir/DBServConn.cpp.o" \
+"CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o" \
+"CMakeFiles/http_msg_server.dir/HttpConn.cpp.o" \
+"CMakeFiles/http_msg_server.dir/AttachData.cpp.o" \
+"CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o" \
+"CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o"
 
 # External object files for target http_msg_server
 http_msg_server_EXTERNAL_OBJECTS =
 
-http_msg_server: CMakeFiles/http_msg_server.dir/AttachData.cpp.o
-http_msg_server: CMakeFiles/http_msg_server.dir/DBServConn.cpp.o
-http_msg_server: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o
-http_msg_server: CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o
-http_msg_server: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o
 http_msg_server: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o
+http_msg_server: CMakeFiles/http_msg_server.dir/DBServConn.cpp.o
+http_msg_server: CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o
+http_msg_server: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o
+http_msg_server: CMakeFiles/http_msg_server.dir/AttachData.cpp.o
 http_msg_server: CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o
+http_msg_server: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o
 http_msg_server: CMakeFiles/http_msg_server.dir/build.make
 http_msg_server: CMakeFiles/http_msg_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable http_msg_server"
@@ -242,13 +242,13 @@ http_msg_server: CMakeFiles/http_msg_server.dir/link.txt
 CMakeFiles/http_msg_server.dir/build: http_msg_server
 .PHONY : CMakeFiles/http_msg_server.dir/build
 
-CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
-CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/DBServConn.cpp.o.requires
-CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
-CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o.requires
-CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
 CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/RouteServConn.cpp.o.requires
+CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/DBServConn.cpp.o.requires
+CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpPdu.cpp.o.requires
+CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpConn.cpp.o.requires
+CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/AttachData.cpp.o.requires
 CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/http_msg_server.cpp.o.requires
+CMakeFiles/http_msg_server.dir/requires: CMakeFiles/http_msg_server.dir/HttpQuery.cpp.o.requires
 .PHONY : CMakeFiles/http_msg_server.dir/requires
 
 CMakeFiles/http_msg_server.dir/clean:
